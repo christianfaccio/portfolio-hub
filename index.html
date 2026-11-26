@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Hub · News</title>
+  <meta name="description" content="Personal daily briefing on markets, macro and geopolitics.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232456d6'/><path d='M7 22l6-7 5 4 7-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="news" data-root="./">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="./">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Portfolio Hub
+      </a>
+      <nav id="site-nav" class="site-nav" aria-label="Sections"></nav>
+      <div class="topbar-actions">
+        <a id="edit-topics" class="ghost-btn" target="_blank" rel="noopener">Edit topics</a>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="masthead">
+      <div>
+        <p class="eyebrow" id="edition-label">Loading…</p>
+        <h1 id="edition-date">Today's briefing</h1>
+        <p class="muted" id="edition-meta"></p>
+      </div>
+      <label class="edition-picker">
+        <span>Edition</span>
+        <select id="edition-select"></select>
+      </label>
+    </section>
+
+    <section class="toolbar" aria-label="Filters">
+      <div class="chips" id="section-chips" role="tablist"></div>
+      <div class="toolbar-right">
+        <div class="segmented" id="lang-filter" role="group" aria-label="Language">
+          <button type="button" data-lang="all" aria-pressed="true">All</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" data-lang="it" aria-pressed="false">IT</button>
+        </div>
+        <input id="search" type="search" placeholder="Search headlines…" autocomplete="off">
+      </div>
+    </section>
+
+    <div id="content" aria-live="polite"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Headlines from Google News and official RSS feeds, refreshed twice a day. Topics live in <code>topics.yml</code>.</p>
+  </footer>
+
+  <script src="assets/site.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

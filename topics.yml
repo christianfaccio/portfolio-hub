@@ -1,0 +1,202 @@
+# =============================================================================
+#  Portfolio Hub — news topics
+# =============================================================================
+#  This file decides what news shows up on your page. Edit it freely: every
+#  push to GitHub (including edits made in the GitHub web editor) triggers a
+#  fresh fetch and redeploy within a couple of minutes.
+#
+#  Structure
+#  ---------
+#  sections:            Groups shown on the page (and as filter chips).
+#    - id:              Short unique id, no spaces (used in the URL filter).
+#      title:           Name shown on the page.
+#      description:     Optional subtitle.
+#      topics:          One card per topic.
+#        - name:        Card title.
+#          tag:         Optional short label (e.g. a ticker).
+#          query:       Google News search. Either one string used for every
+#                       language, or one string per language:
+#                         query:
+#                           en: '"Federal Reserve" OR FOMC'
+#                           it: 'Fed tassi'
+#                       Search syntax: "exact phrase", OR, -exclude, site:ft.com
+#          languages:   Optional, overrides settings.languages for this topic.
+#          feeds:       Optional extra RSS/Atom feeds for this topic. Either a
+#                       URL, or {url: ..., keywords: [...]} to keep only items
+#                       whose title/summary contains one of the keywords.
+#          exclude:     Optional words; matching headlines are dropped.
+#          max_items:   Optional, overrides settings.max_items_per_topic.
+#
+#  Tip: lines starting with # are comments and are ignored.
+# =============================================================================
+
+settings:
+  languages: [en, it]          # Google News editions to search (see below)
+  max_items_per_topic: 10      # headlines kept per topic card
+  lookback_hours: 36           # ignore anything older than this
+  archive_days: 30             # how many days of past editions to keep
+
+  # Google News edition per language code. Add more if you add a language,
+  # e.g.  de: {hl: de, gl: DE, ceid: "DE:de"}
+  editions:
+    en: {hl: en-US, gl: US, ceid: "US:en"}
+    it: {hl: it, gl: IT, ceid: "IT:it"}
+
+  # Sources to rank first (case-insensitive, partial match on the source name
+  # shown under each headline). Other sources still appear, below these.
+  preferred_sources:
+    # international
+    - Reuters
+    - Bloomberg
+    - Financial Times
+    - Wall Street Journal
+    - CNBC
+    - The Economist
+    - Associated Press
+    - AP News
+    - BBC
+    - The Guardian
+    - New York Times
+    - Washington Post
+    - MarketWatch
+    - Barron's
+    - Yahoo Finance
+    - Politico
+    - Axios
+    - Fortune
+    - Nikkei
+    - South China Morning Post
+    - Federal Reserve
+    - European Central Bank
+    # italian
+    - Il Sole 24 Ore
+    - Milano Finanza
+    - Corriere
+    - la Repubblica
+    - ANSA
+    - Il Post
+    - Wall Street Italia
+    - Teleborsa
+    - Borsa Italiana
+    - Money.it
+    - La Stampa
+    - Il Foglio
+    - Formiche
+
+  # Set to true to show ONLY preferred sources (stricter, fewer headlines).
+  only_preferred_sources: false
+
+  # Sources to hide completely (same matching rules).
+  blocked_sources:
+    - Blasting News
+    # - Some Site
+
+sections:
+
+  # ---------------------------------------------------------------------------
+  - id: holdings
+    title: My Holdings
+    description: News on the companies, ETFs and funds in my portfolio.
+    topics: []
+    # Replace "topics: []" above with a list like this (remove the # signs):
+    # topics:
+    #   - name: Apple
+    #     tag: AAPL
+    #     query: '"Apple" (stock OR shares OR earnings) OR AAPL'
+    #   - name: Vanguard FTSE All-World
+    #     tag: VWCE
+    #     query:
+    #       en: '"FTSE All-World" OR "global equities" ETF'
+    #       it: 'ETF azionario globale OR "FTSE All-World"'
+    #   - name: Eni
+    #     tag: ENI
+    #     query:
+    #       en: 'Eni (oil OR shares OR earnings)'
+    #       it: 'Eni (titolo OR utili OR Borsa)'
+
+  # ---------------------------------------------------------------------------
+  - id: macro
+    title: Macro & Central Banks
+    description: Rates, inflation, growth and the decisions that move every asset.
+    topics:
+      - name: Federal Reserve
+        tag: FED
+        query:
+          en: '"Federal Reserve" OR FOMC OR "Fed rate"'
+          it: '"Federal Reserve" OR Fed tassi'
+        feeds:
+          - https://www.federalreserve.gov/feeds/press_monetary.xml
+
+      - name: European Central Bank
+        tag: ECB
+        query:
+          en: '"European Central Bank" OR ECB rates OR Lagarde'
+          it: 'BCE tassi OR Lagarde OR "Banca centrale europea"'
+        feeds:
+          - https://www.ecb.europa.eu/rss/press.html
+
+      - name: Other Central Banks
+        tag: CB
+        query:
+          en: '"Bank of England" OR "Bank of Japan" OR "People''s Bank of China" OR "Swiss National Bank"'
+          it: '"Bank of England" OR "Bank of Japan" OR "banca centrale" tassi'
+
+      - name: Inflation
+        tag: CPI
+        query:
+          en: 'inflation (CPI OR PCE OR "consumer prices")'
+          it: 'inflazione (Istat OR Eurozona OR prezzi)'
+
+      - name: Growth & Jobs
+        tag: GDP
+        query:
+          en: 'GDP OR "jobs report" OR payrolls OR unemployment OR PMI economy'
+          it: 'PIL OR disoccupazione OR occupazione OR PMI economia'
+
+      - name: Bonds & Yields
+        tag: BONDS
+        query:
+          en: '"Treasury yields" OR "bond market" OR "Bund yields" OR "yield curve"'
+          it: 'spread BTP Bund OR rendimenti titoli di Stato OR obbligazioni'
+
+  # ---------------------------------------------------------------------------
+  - id: geopolitics
+    title: Geopolitics & Policy
+    description: Trade, governments, regulation and conflicts with market impact.
+    topics:
+      - name: Trade & Tariffs
+        tag: TRADE
+        query:
+          en: 'tariffs OR "trade war" OR "trade deal" OR "export controls"'
+          it: 'dazi OR "guerra commerciale" OR "accordo commerciale"'
+
+      - name: US Fiscal Policy & Politics
+        tag: US
+        query:
+          en: '"White House" economy OR Congress (budget OR spending OR tax) OR "government shutdown"'
+          it: 'Stati Uniti (Congresso OR Casa Bianca) economia'
+
+      - name: EU Policy & Regulation
+        tag: EU
+        query:
+          en: '"European Commission" (economy OR regulation OR budget) OR "EU fiscal rules"'
+          it: '"Commissione europea" (economia OR regole OR bilancio) OR "Patto di stabilità"'
+
+      - name: Italy Economy & Policy
+        tag: IT
+        languages: [it, en]
+        query:
+          en: 'Italy (economy OR budget OR debt OR government)'
+          it: '"legge di bilancio" OR "economia italiana" OR "debito pubblico" OR Istat'
+
+      - name: China
+        tag: CN
+        query:
+          en: '"China economy" OR "Chinese economy" OR "China stimulus" OR yuan OR "China exports"'
+          it: '"economia cinese" OR "Cina economia" OR yuan OR "export cinese"'
+
+      - name: Conflicts, Sanctions & Energy
+        tag: GEO
+        query:
+          en: 'sanctions OR geopolitical (oil OR gas OR markets) OR "energy security"'
+          it: 'sanzioni OR geopolitica (petrolio OR gas OR mercati)'
