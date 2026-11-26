@@ -1,0 +1,701 @@
+# =============================================================================
+#  Portfolio Hub — Economy dashboard
+# =============================================================================
+#  Every indicator on the Economy page, its "i" explanation and its weight in
+#  the cycle score live here. Edit, commit, and the page rebuilds in ~2 min.
+#
+#  Indicator fields
+#  ----------------
+#  id:          unique short id (letters, digits, _)
+#  name:        label on the card
+#  category:    one of the ids under `categories`
+#  source:      fred | yahoo | eurostat | derived
+#  series:      FRED series id (fred.stlouisfed.org/series/<ID>) or Yahoo
+#               ticker (finance.yahoo.com/quote/<TICKER>) or Eurostat dataset
+#  params:      Eurostat only: dimension filters, e.g. {geo: IT, unit: PC_ACT}
+#  fallback:    optional FRED id to use if the Yahoo ticker fails
+#  op, a, b:    for source: derived → op is spread (a - b) or ratio (a / b);
+#               computed on the displayed (transformed) monthly values;
+#               a and b are ids of other indicators listed earlier
+#  scale:       multiply the result (e.g. 100 to turn % into basis points)
+#  transform:   level | yoy (% change vs 12 months ago) | diff (change vs
+#               previous month) | diff12 (change vs 12 months ago, in units)
+#  smooth:      optional N-month moving average applied after the transform
+#  units:       suffix shown after the value (%, pp, bp, k, $, …)
+#  decimals:    digits shown
+#  change:      abs | pct — how the 1M / 1Y changes are displayed
+#  info:        text of the "i" popover (plain text, blank line = paragraph)
+#  cycle:       optional — include in the cycle score:
+#                 weight: relative importance
+#                 bear:   value that maps to -1 (full contraction signal)
+#                 bull:   value that maps to +1 (full expansion signal)
+#                 transform/smooth: optional, override the display ones
+#               Values in between are interpolated linearly and clipped.
+#               bear can be above bull (e.g. for credit spreads).
+# =============================================================================
+
+settings:
+  history_start: "1990-01"     # first month of the cycle-score history
+  sparkline_years: 10          # history shown in each card's mini chart
+  ffill_months: 4              # carry a component's last value this many months
+                               # (quarterly / lagging data) before dropping it
+
+cycle:
+  smoothing_months: 3          # moving average applied to the composite
+  momentum_months: 6           # direction = score now minus score N months ago
+  recession_series: USREC      # NBER recession flag (shaded on the chart)
+  info: |
+    A composite of the indicators marked with a "cycle" block in economy.yml. Each one is mapped onto a -1 (contraction) … +1 (strong expansion) scale between its bear and bull thresholds, and the weighted average is smoothed over a few months.
+
+    It is meant to track the long business cycle (expansions and recessions that last years), not short market swings. Most inputs are year-over-year changes, levels of spreads or slow-moving activity indexes for that reason.
+
+    The phase combines level and direction: above 0 and rising = Expansion, above 0 and falling = Late cycle, below 0 and falling = Contraction, below 0 and rising = Recovery. Shaded bands on the chart are NBER-dated US recessions, so you can judge how well the score would have warned in the past.
+
+    It is a heuristic, not a forecast. Tune weights and thresholds in economy.yml.
+
+yield_curve:
+  info: |
+    US Treasury yields across maturities, today versus 6 and 12 months ago.
+
+    Normally the curve slopes upward: lending for longer pays more. When short rates sit above long rates the curve is "inverted". That usually means the market expects the central bank to cut, often because it expects a slowdown. Every US recession since the 1960s was preceded by an inversion of the 10Y–3M spread.
+
+    Watch the shape change too. A "bull steepening" (short yields falling faster than long ones) after an inversion has historically come right before or during recessions, as the Fed starts cutting. A "bear steepening" (long yields rising) can signal inflation or fiscal worries.
+  tenors:
+    - {label: 1M, series: DGS1MO, years: 0.083}
+    - {label: 3M, series: DGS3MO, years: 0.25}
+    - {label: 6M, series: DGS6MO, years: 0.5}
+    - {label: 1Y, series: DGS1, years: 1}
+    - {label: 2Y, series: DGS2, years: 2}
+    - {label: 3Y, series: DGS3, years: 3}
+    - {label: 5Y, series: DGS5, years: 5}
+    - {label: 7Y, series: DGS7, years: 7}
+    - {label: 10Y, series: DGS10, years: 10}
+    - {label: 20Y, series: DGS20, years: 20}
+    - {label: 30Y, series: DGS30, years: 30}
+
+categories:
+  - {id: growth, title: Growth & Activity, description: "Is the economy producing, selling and building more?"}
+  - {id: labor, title: Labor Market, description: "Jobs drive income, spending and, in the end, recessions."}
+  - {id: inflation, title: Inflation, description: "Price pressure, what central banks react to."}
+  - {id: rates, title: Rates & Yield Curve, description: "The price of money and what bonds expect."}
+  - {id: credit, title: Credit & Financial Conditions, description: "How easily companies and households can borrow."}
+  - {id: liquidity, title: Money & Liquidity, description: "How much money is in the system."}
+  - {id: europe, title: Euro Area & Italy, description: "Home market rates, prices and the BTP-Bund spread."}
+  - {id: markets, title: Markets & Assets, description: "What prices are saying, often months before the data."}
+
+indicators:
+
+  # ------------------------------------------------------------------ growth
+  - id: gdp
+    name: Real GDP growth
+    category: growth
+    source: fred
+    series: A191RL1Q225SBEA
+    transform: level
+    units: "%"
+    decimals: 1
+    info: |
+      US real (inflation-adjusted) GDP growth, quarter over quarter, annualized. Published by the BEA about a month after each quarter ends and revised later.
+
+      Around 2% is the long-run trend for the US. Two negative quarters are a popular (not official) recession definition. GDP is a lagging, backward-looking measure, so it confirms the cycle more than it predicts it.
+    cycle: {weight: 1, bear: -1, bull: 3}
+
+  - id: oecd_cli
+    name: OECD leading indicator (US)
+    category: growth
+    source: fred
+    series: USALOLITOAASTSAM
+    transform: level
+    decimals: 2
+    info: |
+      OECD Composite Leading Indicator for the US, amplitude-adjusted, with 100 = long-term trend. It is built to anticipate turning points in the business cycle about 6–9 months ahead.
+
+      Above 100 and rising = expansion. Above 100 and falling = downturn ahead. Below 100 and falling = slowdown or contraction. Below 100 and rising = recovery.
+    cycle: {weight: 1.5, bear: 98.5, bull: 100.75}
+
+  - id: indpro
+    name: Industrial production
+    category: growth
+    source: fred
+    series: INDPRO
+    transform: yoy
+    units: "%"
+    decimals: 1
+    info: |
+      Year-over-year change in US output of factories, mines and utilities (Federal Reserve index).
+
+      Manufacturing is the most cyclical part of the economy. A sustained negative YoY reading has accompanied every recession, though it also dips in industrial-only slowdowns (2015–16, 2023).
+    cycle: {weight: 1, bear: -3, bull: 3}
+
+  - id: cfnai
+    name: Chicago Fed Activity Index (3M avg)
+    category: growth
+    source: fred
+    series: CFNAIMA3
+    transform: level
+    decimals: 2
+    info: |
+      The Chicago Fed National Activity Index summarizes 85 monthly indicators (production, employment, consumption, sales) into one number. 0 = economy growing at its trend rate.
+
+      The Chicago Fed's own rule of thumb: when the 3-month average drops below -0.70 after a period of expansion, the probability that a recession has begun rises sharply. Above +0.20 suggests above-trend growth.
+    cycle: {weight: 1.5, bear: -0.7, bull: 0.2}
+
+  - id: retail
+    name: Real retail sales
+    category: growth
+    source: fred
+    series: RRSFS
+    transform: yoy
+    smooth: 3
+    units: "%"
+    decimals: 1
+    info: |
+      Year-over-year change in US retail and food-service sales, adjusted for inflation (3-month average).
+
+      Consumer spending is about two-thirds of US GDP. Real sales shrinking on a yearly basis is a sign households are pulling back.
+    cycle: {weight: 1, bear: -2, bull: 4}
+
+  - id: permits
+    name: Building permits
+    category: growth
+    source: fred
+    series: PERMIT
+    transform: yoy
+    smooth: 3
+    units: "%"
+    decimals: 1
+    info: |
+      Year-over-year change in new private housing units authorized by building permits (3-month average).
+
+      "Housing is the business cycle" (Ed Leamer). Housing is very sensitive to mortgage rates, so it tends to turn down a year or more before a recession and recover first. Permits lead actual construction.
+    cycle: {weight: 1, bear: -20, bull: 10}
+
+  - id: sentiment
+    name: Consumer sentiment (UMich)
+    category: growth
+    source: fred
+    series: UMCSENT
+    transform: level
+    decimals: 1
+    info: |
+      University of Michigan index of consumer sentiment (1966 = 100).
+
+      A soft-data, survey measure: it reflects how households feel about their finances and the economy. Very low readings often coincide with recessions or inflation shocks, but since 2022 sentiment has sometimes stayed depressed while spending held up. It has a low weight in the score for that reason.
+    cycle: {weight: 0.5, bear: 60, bull: 95}
+
+  # ------------------------------------------------------------------ labor
+  - id: unrate
+    name: Unemployment rate
+    category: labor
+    source: fred
+    series: UNRATE
+    transform: level
+    units: "%"
+    decimals: 1
+    info: |
+      Share of the US labor force without a job and looking for one.
+
+      The level matters less than the direction. Unemployment tends to fall slowly through an expansion and then jump quickly once a recession starts. It is a lagging indicator, so see the Sahm rule for a timelier signal based on it.
+
+  - id: payrolls
+    name: Payroll growth (3M avg)
+    category: labor
+    source: fred
+    series: PAYEMS
+    transform: diff
+    smooth: 3
+    units: k
+    decimals: 0
+    info: |
+      Average monthly change in US non-farm payrolls over the last 3 months, in thousands of jobs.
+
+      The headline number of the monthly jobs report. What counts as "enough" depends on labor-force growth. With lower immigration the breakeven pace may now be well below 100k a month. Negative readings are a recession signal.
+    cycle: {weight: 1, bear: -50, bull: 150}
+
+  - id: claims
+    name: Initial jobless claims
+    category: labor
+    source: fred
+    series: ICSA
+    transform: level
+    units: k
+    scale: 0.001
+    decimals: 0
+    info: |
+      Weekly first-time applications for unemployment insurance in the US, in thousands.
+
+      The most timely labor indicator (released every Thursday). A rise of roughly 20% or more from a year earlier, sustained over several weeks, has historically signaled that layoffs are spreading. The score uses the year-over-year change of the monthly value.
+    cycle: {weight: 1, transform: yoy, smooth: 3, bear: 20, bull: -10}
+
+  - id: sahm
+    name: Sahm rule indicator
+    category: labor
+    source: fred
+    series: SAHMREALTIME
+    transform: level
+    units: pp
+    decimals: 2
+    info: |
+      Claudia Sahm's recession indicator: the 3-month average unemployment rate minus its lowest 3-month average of the previous 12 months, in percentage points.
+
+      A reading of 0.50 or more has marked the early months of every US recession since 1970. It gave a false alarm in 2024, when unemployment rose because of labor supply (immigration) rather than layoffs, so pair it with claims.
+    cycle: {weight: 2, bear: 0.5, bull: 0.0}
+
+  # ------------------------------------------------------------------ inflation
+  - id: cpi
+    name: CPI inflation
+    category: inflation
+    source: fred
+    series: CPIAUCSL
+    transform: yoy
+    units: "%"
+    decimals: 1
+    info: |
+      Year-over-year change in the US Consumer Price Index for all urban consumers. The headline inflation number, which includes volatile food and energy.
+
+  - id: core_cpi
+    name: Core CPI inflation
+    category: inflation
+    source: fred
+    series: CPILFESL
+    transform: yoy
+    units: "%"
+    decimals: 1
+    info: |
+      CPI excluding food and energy, year over year. A better read of underlying, persistent inflation than the headline number.
+
+  - id: core_pce
+    name: Core PCE inflation
+    category: inflation
+    source: fred
+    series: PCEPILFE
+    transform: yoy
+    units: "%"
+    decimals: 1
+    info: |
+      Personal consumption expenditures price index excluding food and energy, year over year.
+
+      This is the Federal Reserve's preferred inflation gauge and the one its 2% target refers to. It usually runs a few tenths below core CPI because it weighs housing less.
+
+  - id: breakeven10
+    name: 10Y breakeven inflation
+    category: inflation
+    source: fred
+    series: T10YIE
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      10-year Treasury yield minus 10-year TIPS (inflation-protected) yield: the average inflation rate the bond market is pricing over the next 10 years.
+
+      Falling breakevens alongside falling yields usually mean growth fears. Rising breakevens mean inflation fears.
+
+  - id: infl5y5
+    name: 5Y5Y forward inflation
+    category: inflation
+    source: fred
+    series: T5YIFR
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Expected average inflation over the 5-year period that starts 5 years from now, derived from Treasury and TIPS yields.
+
+      Central banks watch it as a measure of whether long-term inflation expectations are "anchored". Around 2.0–2.5% is consistent with the Fed's target.
+
+  # ------------------------------------------------------------------ rates
+  - id: fedfunds
+    name: Fed funds rate
+    category: rates
+    source: fred
+    series: DFF
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Effective federal funds rate: the overnight rate at which US banks lend reserves to each other, steered by the Fed's policy target range.
+
+  - id: real_policy
+    name: Real policy rate
+    category: rates
+    source: derived
+    op: spread
+    a: fedfunds
+    b: core_pce
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Fed funds rate minus core PCE inflation: how restrictive monetary policy is in real terms.
+
+      Estimates of the "neutral" real rate (r*) are roughly 0.5–1%. A real policy rate well above that slows the economy with a lag of 12–24 months. Tightening cycles have historically ended in recession more often than not.
+    cycle: {weight: 0.75, bear: 2.5, bull: 0}
+
+  - id: us2y
+    name: 2Y Treasury yield
+    category: rates
+    source: fred
+    series: DGS2
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Yield on the 2-year US Treasury note. The maturity most sensitive to where the market expects the Fed to take rates over the next couple of years.
+
+  - id: us10y
+    name: 10Y Treasury yield
+    category: rates
+    source: fred
+    series: DGS10
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Yield on the 10-year US Treasury note. The global benchmark "risk-free" rate. It drives mortgage rates and the discount rate used to value stocks.
+
+  - id: real10
+    name: 10Y real yield (TIPS)
+    category: rates
+    source: fred
+    series: DFII10
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Yield on the 10-year inflation-protected Treasury (TIPS): the real, after-inflation return on safe long-term money.
+
+      High real yields compete with stocks and gold. Gold in particular has historically moved inversely to real yields.
+
+  - id: t10y2y
+    name: Yield curve 10Y – 2Y
+    category: rates
+    source: fred
+    series: T10Y2Y
+    transform: level
+    units: pp
+    decimals: 2
+    info: |
+      10-year minus 2-year Treasury yield, in percentage points. The most quoted measure of the curve's slope.
+
+      Negative = inverted curve. Inversions have preceded recessions by roughly 6–24 months. The most dangerous moment has often been the re-steepening after a long inversion, when the Fed starts cutting. A rising spread is therefore not automatically bullish if it follows an inversion.
+    cycle: {weight: 1, bear: -0.5, bull: 1.0}
+
+  - id: t10y3m
+    name: Yield curve 10Y – 3M
+    category: rates
+    source: fred
+    series: T10Y3M
+    transform: level
+    units: pp
+    decimals: 2
+    info: |
+      10-year minus 3-month Treasury yield. The New York Fed uses this spread in its recession-probability model, and research finds it the most reliable curve-based predictor.
+
+      Same caveat as 10Y–2Y: the steepening after an inversion often coincides with the start of a recession.
+    cycle: {weight: 1.5, bear: -0.75, bull: 1.25}
+
+  # ------------------------------------------------------------------ credit
+  - id: hy_oas
+    name: High-yield credit spread
+    category: credit
+    source: fred
+    series: BAMLH0A0HYM2
+    transform: level
+    units: pp
+    decimals: 2
+    info: |
+      ICE BofA US High Yield option-adjusted spread: the extra yield junk-rated companies pay over Treasuries.
+
+      Credit markets often sense trouble before equities. Spreads below about 3.5 pp signal easy financing and complacency. Above 6 pp signals stress, and above 8 pp is typical of recessions. FRED now only shares the last few years of this series.
+    cycle: {weight: 1.5, bear: 6, bull: 3.5}
+
+  - id: baa10y
+    name: Baa corporate spread
+    category: credit
+    source: fred
+    series: BAA10Y
+    transform: level
+    units: pp
+    decimals: 2
+    info: |
+      Moody's Baa (lowest investment grade) corporate bond yield minus the 10-year Treasury yield. Available back to 1986, so it carries most of the credit signal in the historical score.
+
+      About 1.5–2 pp is calm. Above 3 pp has historically meant credit stress or recession.
+    cycle: {weight: 1, bear: 3.0, bull: 1.7}
+
+  - id: nfci
+    name: Financial conditions (NFCI)
+    category: credit
+    source: fred
+    series: NFCI
+    transform: level
+    decimals: 2
+    info: |
+      Chicago Fed National Financial Conditions Index, built from 105 measures of risk, credit and leverage. 0 = historical average. Negative = looser than average, positive = tighter than average.
+
+      Tight financial conditions feed into the real economy within a few quarters.
+    cycle: {weight: 1, bear: 0.3, bull: -0.5}
+
+  - id: vix
+    name: VIX volatility
+    category: credit
+    source: fred
+    series: VIXCLS
+    transform: level
+    decimals: 1
+    info: |
+      CBOE Volatility Index: the 30-day volatility implied by S&P 500 options, known as the "fear gauge".
+
+      Below 15 = calm, 20–30 = nervous, above 30 = panic. Spikes are usually short-lived. A VIX that stays elevated for months goes with bear markets. The score uses its 3-month average.
+    cycle: {weight: 0.5, smooth: 3, bear: 30, bull: 14}
+
+  # ------------------------------------------------------------------ liquidity
+  - id: m2
+    name: M2 money supply
+    category: liquidity
+    source: fred
+    series: M2SL
+    transform: yoy
+    units: "%"
+    decimals: 1
+    info: |
+      Year-over-year growth of the US M2 money supply (cash, deposits, money-market funds).
+
+      Monetarists see money growth as a leading indicator of spending and inflation. In 2022–23 M2 shrank for the first time since the 1930s. Its predictive power has been weaker in recent decades, so it has a low weight.
+    cycle: {weight: 0.5, bear: 0, bull: 6}
+
+  - id: fed_bs
+    name: Fed balance sheet
+    category: liquidity
+    source: fred
+    series: WALCL
+    transform: yoy
+    units: "%"
+    decimals: 1
+    info: |
+      Year-over-year change in total assets held by the Federal Reserve.
+
+      Growing = quantitative easing (adds liquidity, supportive for risk assets). Shrinking = quantitative tightening.
+
+  # ------------------------------------------------------------------ europe
+  - id: ecb_rate
+    name: ECB deposit rate
+    category: europe
+    source: fred
+    series: ECBDFR
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      The rate the ECB pays on bank deposits: since 2022 the ECB's main policy rate in practice. It sets the floor for euro money-market rates, and hence the yield on euro cash and short-term bonds.
+
+  - id: ez_hicp
+    name: Euro area inflation (HICP)
+    category: europe
+    source: fred
+    series: CP0000EZ19M086NEST
+    transform: yoy
+    units: "%"
+    decimals: 1
+    info: |
+      Year-over-year change in the Harmonised Index of Consumer Prices for the euro area. The measure the ECB's 2% target refers to.
+
+  - id: ez_unemp
+    name: Euro area unemployment
+    category: europe
+    source: eurostat
+    series: une_rt_m
+    params: {geo: EA21, s_adj: SA, age: TOTAL, sex: T, unit: PC_ACT}
+    transform: level
+    units: "%"
+    decimals: 1
+    info: |
+      Seasonally adjusted unemployment rate for the euro area (Eurostat). EA21 = the 21 countries using the euro since Bulgaria joined in 2026. Change "geo" when membership changes.
+
+  - id: it_unemp
+    name: Italy unemployment
+    category: europe
+    source: eurostat
+    series: une_rt_m
+    params: {geo: IT, s_adj: SA, age: TOTAL, sex: T, unit: PC_ACT}
+    transform: level
+    units: "%"
+    decimals: 1
+    info: |
+      Seasonally adjusted Italian unemployment rate (Eurostat). It fell from above 12% in 2014 to multi-decade lows in the 2020s.
+
+  - id: bund10
+    name: Germany 10Y yield
+    category: europe
+    source: fred
+    series: IRLTLT01DEM156N
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Yield on 10-year German government bonds (Bund), the euro area's risk-free benchmark. Monthly average (OECD data).
+
+  - id: btp10
+    name: Italy 10Y yield
+    category: europe
+    source: fred
+    series: IRLTLT01ITM156N
+    transform: level
+    units: "%"
+    decimals: 2
+    info: |
+      Yield on 10-year Italian government bonds (BTP). Monthly average (OECD data).
+
+  - id: btp_bund
+    name: BTP–Bund spread
+    category: europe
+    source: derived
+    op: spread
+    a: btp10
+    b: bund10
+    scale: 100
+    transform: level
+    units: bp
+    decimals: 0
+    info: |
+      Italian 10Y yield minus German 10Y yield, in basis points (monthly average).
+
+      The market's price of Italian credit and euro-break-up risk. It peaked above 500 bp in 2011, during the sovereign debt crisis. Below about 150 bp is historically calm. It matters directly for Italian banks, BTP holders and the Italian state's borrowing costs.
+
+  # ------------------------------------------------------------------ markets
+  - id: spx
+    name: S&P 500
+    category: markets
+    source: yahoo
+    series: ^GSPC
+    fallback: SP500
+    transform: level
+    decimals: 0
+    change: pct
+    info: |
+      The 500 largest US companies, the world's reference equity index.
+
+      Stocks are a leading indicator: they usually peak months before a recession and bottom well before it ends. The cycle score uses the S&P 500's 12-month return.
+    cycle: {weight: 1, transform: yoy, bear: -15, bull: 15}
+
+  - id: ndx
+    name: Nasdaq 100
+    category: markets
+    source: yahoo
+    series: ^NDX
+    transform: level
+    decimals: 0
+    change: pct
+    info: |
+      The 100 largest non-financial companies on the Nasdaq, dominated by tech. A gauge of risk appetite and of the AI / growth trade.
+
+  - id: stoxx50
+    name: Euro Stoxx 50
+    category: markets
+    source: yahoo
+    series: ^STOXX50E
+    transform: level
+    decimals: 0
+    change: pct
+    info: |
+      The 50 largest blue-chip companies in the euro area.
+
+  - id: ftsemib
+    name: FTSE MIB
+    category: markets
+    source: yahoo
+    series: FTSEMIB.MI
+    transform: level
+    decimals: 0
+    change: pct
+    info: |
+      The 40 largest companies listed in Milan. Heavy in banks, energy and utilities, so very sensitive to interest rates and the BTP–Bund spread.
+
+  - id: gold
+    name: Gold
+    category: markets
+    source: yahoo
+    series: GC=F
+    transform: level
+    units: $
+    decimals: 0
+    change: pct
+    info: |
+      Gold futures, USD per troy ounce. A hedge against inflation, currency debasement and geopolitical risk. It tends to rise when real yields fall and when central banks buy reserves.
+
+  - id: oil
+    name: WTI crude oil
+    category: markets
+    source: yahoo
+    series: CL=F
+    fallback: DCOILWTICO
+    transform: level
+    units: $
+    decimals: 2
+    change: pct
+    info: |
+      West Texas Intermediate crude futures, USD per barrel. A key input cost and inflation driver. Sharp oil spikes have preceded several recessions (1973, 1990, 2008).
+
+  - id: copper
+    name: Copper
+    category: markets
+    source: yahoo
+    series: HG=F
+    transform: level
+    units: $
+    decimals: 2
+    change: pct
+    info: |
+      Copper futures, USD per pound. "Dr. Copper" is used everywhere from construction to electronics and the energy transition, so its price is a real-time read on global industrial demand, especially China's.
+
+  - id: copper_gold
+    name: Copper / gold ratio
+    category: markets
+    source: derived
+    op: ratio
+    a: copper
+    b: gold
+    scale: 1000
+    transform: level
+    decimals: 2
+    change: pct
+    info: |
+      Copper price divided by gold price (×1000). Copper stands for growth, gold for fear, so a rising ratio signals improving growth expectations. It has tracked the 10-year Treasury yield closely for long periods. The score uses its 12-month change.
+    cycle: {weight: 0.5, transform: yoy, bear: -20, bull: 20}
+
+  - id: dxy
+    name: US dollar index
+    category: markets
+    source: yahoo
+    series: DX-Y.NYB
+    fallback: DTWEXBGS
+    transform: level
+    decimals: 2
+    change: pct
+    info: |
+      The dollar against a basket of six major currencies (mostly the euro). A strong dollar tightens global financial conditions, because a lot of foreign debt is in USD, and it also reduces the euro value of US assets for a euro-based investor.
+
+  - id: eurusd
+    name: EUR / USD
+    category: markets
+    source: yahoo
+    series: EURUSD=X
+    fallback: DEXUSEU
+    transform: level
+    decimals: 4
+    change: pct
+    info: |
+      Dollars per euro. When it rises, US assets you hold are worth fewer euros, unless the position is currency-hedged.
+
+  - id: btc
+    name: Bitcoin
+    category: markets
+    source: yahoo
+    series: BTC-USD
+    fallback: CBBTCUSD
+    transform: level
+    units: $
+    decimals: 0
+    change: pct
+    info: |
+      Bitcoin in USD. A high-beta gauge of speculative risk appetite and liquidity.

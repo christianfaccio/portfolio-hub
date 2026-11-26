@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Hub · Economy</title>
+  <meta name="description" content="Macro dashboard: business-cycle score, yield curve and key economic indicators.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%232456d6'/><path d='M7 22l6-7 5 4 7-9' stroke='white' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/style.css">
+  <link rel="stylesheet" href="economy.css">
+</head>
+<body data-page="economy" data-root="../../">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="../../">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Portfolio Hub
+      </a>
+      <nav id="site-nav" class="site-nav" aria-label="Sections"></nav>
+      <div class="topbar-actions">
+        <a id="edit-config" class="ghost-btn" target="_blank" rel="noopener">Edit indicators</a>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="masthead">
+      <div>
+        <p class="eyebrow">US &amp; Euro area</p>
+        <h1>State of the economy</h1>
+        <p class="muted" id="updated">Loading…</p>
+      </div>
+    </section>
+
+    <!-- Cycle score -->
+    <section class="panel cycle-panel" aria-labelledby="cycle-title">
+      <div class="panel-head">
+        <h2 id="cycle-title">Business cycle score</h2>
+        <span class="info-slot" data-info="cycle"></span>
+      </div>
+      <div class="cycle-grid">
+        <div class="cycle-hero">
+          <div id="gauge" class="gauge"></div>
+          <div class="hero-number">
+            <span id="cycle-score" class="big">–</span>
+            <span id="cycle-phase" class="phase"></span>
+            <span id="cycle-momentum" class="muted small"></span>
+          </div>
+        </div>
+        <div class="cycle-history">
+          <div class="chart-title">
+            <span>Score history</span>
+            <span class="legend-inline"><span class="swatch swatch-rec"></span> US recessions (NBER)</span>
+          </div>
+          <div id="cycle-chart" class="chart" role="img" aria-label="Cycle score history since 1990"></div>
+        </div>
+      </div>
+      <details class="components" open>
+        <summary>What is driving the score <span class="muted small" id="coverage"></span></summary>
+        <div id="components" class="comp-list"></div>
+      </details>
+    </section>
+
+    <!-- Yield curve -->
+    <section class="panel" aria-labelledby="yc-title">
+      <div class="panel-head">
+        <h2 id="yc-title">US Treasury yield curve</h2>
+        <span class="info-slot" data-info="yield_curve"></span>
+      </div>
+      <div id="yc-legend" class="legend"></div>
+      <div id="yc-chart" class="chart chart-tall" role="img" aria-label="US Treasury yield curve today, 6 months ago and 1 year ago"></div>
+    </section>
+
+    <!-- Indicators -->
+    <section class="toolbar" aria-label="Filters">
+      <div class="chips" id="cat-chips" role="tablist"></div>
+    </section>
+    <div id="indicators"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Data: FRED (Federal Reserve Bank of St. Louis), Eurostat, Yahoo Finance. Refreshed twice a day. Indicators, explanations and score weights live in <code>economy.yml</code>. This is not investment advice.</p>
+  </footer>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <script src="../../assets/site.js"></script>
+  <script src="economy.js"></script>
+</body>
+</html>

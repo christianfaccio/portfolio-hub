@@ -1,8 +1,11 @@
 # Portfolio Hub
 
-My personal investing homepage. For now it hosts a **daily news briefing** on
-my holdings, macro/central banks and geopolitics. More portfolio tools will be
-added over time.
+My personal investing homepage. More portfolio tools will be added over time.
+
+| Page | What it does | Config |
+|---|---|---|
+| **News** (`/`) | Daily briefing on my holdings, macro/central banks and geopolitics | [`topics.yml`](topics.yml) |
+| **Economy** (`/tools/economy/`) | Business-cycle score, US yield curve, ~45 macro indicators and assets with explanations | [`economy.yml`](economy.yml) |
 
 **Live:** https://christianfaccio.github.io/portfolio-hub/
 
@@ -35,15 +38,32 @@ new topics in ~2 minutes.
 
 Search syntax for `query`: `"exact phrase"`, `OR`, `-excluded`, `site:ft.com`.
 
+## Economy dashboard
+
+`scripts/fetch_economy.py` downloads every indicator in [`economy.yml`](economy.yml)
+from FRED, Eurostat and Yahoo Finance and writes `data/economy.json`.
+
+- **Add / remove an indicator:** add an entry under `indicators` (FRED series ids
+  are in the URL of any series page on fred.stlouisfed.org). The `info:` text
+  is what the ⓘ button shows.
+- **Cycle score:** every indicator with a `cycle:` block is mapped linearly
+  from its `bear` value (−1) to its `bull` value (+1), then averaged by
+  `weight` and smoothed (`cycle.smoothing_months`). Change thresholds and
+  weights to tune it, and check the score-history chart against the shaded
+  recessions to see the effect.
+- FRED's download endpoint blocks plain HTTP clients, so the fetcher uses
+  `curl_cffi` with browser impersonation. No API key is needed.
+
 ## Refreshing manually
 
-GitHub → **Actions** → *Update news & deploy* → **Run workflow**.
+GitHub → **Actions** → *Update data & deploy* → **Run workflow**.
 
 ## Running locally
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python scripts/fetch_news.py
+.venv/bin/python scripts/fetch_economy.py
 python3 -m http.server 8000   # open http://localhost:8000
 ```
 

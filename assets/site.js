@@ -6,6 +6,7 @@ window.SITE = {
   repo: "christianfaccio/portfolio-hub",
   NAV: [
     { id: "news", label: "News", href: "" },
+    { id: "economy", label: "Economy", href: "tools/economy/" },
     // { id: "allocation", label: "Allocation", href: "tools/allocation/" },
   ],
 };

@@ -1,4 +1,4 @@
-name: Update news & deploy
+name: Update data & deploy
 
 on:
   schedule:
@@ -34,6 +34,11 @@ jobs:
 
       - name: Fetch news
         run: python scripts/fetch_news.py
+        continue-on-error: true   # keep yesterday's news rather than block the deploy
+
+      - name: Fetch economy data
+        run: python scripts/fetch_economy.py
+        continue-on-error: true
 
       - name: Commit new edition
         run: |
@@ -43,7 +48,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "news: $(date -u +'%Y-%m-%d %H:%M') UTC edition"
+            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M') UTC edition"
             git pull --rebase --autostash origin main
             git push origin HEAD:main
           fi
