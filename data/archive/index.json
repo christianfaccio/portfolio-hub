@@ -5,6 +5,11 @@
   "edition": "morning"
  },
  {
+  "file": "2026-11-28-evening.json",
+  "date": "2026-11-28",
+  "edition": "evening"
+ },
+ {
   "file": "2026-11-27-morning.json",
   "date": "2026-11-27",
   "edition": "morning"
