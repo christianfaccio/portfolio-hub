@@ -1,0 +1,1178 @@
+{
+ "generated_at": "2026-11-28T03:27:10+00:00",
+ "edition": "morning",
+ "sections": [
+  {
+   "id": "holdings",
+   "title": "My Holdings",
+   "description": "News on the companies, ETFs and funds in my portfolio.",
+   "topics": []
+  },
+  {
+   "id": "macro",
+   "title": "Macro & Central Banks",
+   "description": "Rates, inflation, growth and the decisions that move every asset.",
+   "topics": [
+    {
+     "name": "Federal Reserve",
+     "tag": "FED",
+     "articles": [
+      {
+       "title": "Prezzi dell'oro oggi, 28 novembre: hanno registrato il primo rialzo settimanale in tre settimane, nonostante le pressioni della Fed.",
+       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY1NsRjFpOW15RUl6RmV0Z3A3N3RXczVISHBSZWZCaFZVcGRoZ1ZTZV9RNnhRdkJfbXhfdXBpb1NoT2pvd3BkWnNXYUtTWEdadVF0Y2xoWHJ3TXNuUkp0QU4tVC13QVdDZWhNVF9BRGNtakNCVk1KT1pCdUtoLWxGMWM5RnlhYUdYbXNPQTY2anVOdE5pOGkyeUZLdFVfVWRxNFpWc2wxUk41X0xGZnd0VUVWYw?oc=5",
+       "source": "Vietnam.vn",
+       "published": "2026-11-28T01:35:20+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Oro in rimbalzo e Bitcoin sulla difensiva mentre la Fed prepara la stretta di dicembre: la notte dei nervi tesi sui mercati",
+       "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQRVM5ZnFxT3ZzZ3BnYWFsLTg1YVh2NXdUOFZZODdOd2FfNWJ1Uk8ydUZZOE1IX3dqVm1zQks3aDY1aEZNcWtLbDBzdF9GZXRvRV9fUzB5NHZXcEY4R1MyZHk3Ym9jYUJEc2QwZE9OUHN6RExqcHgyVFA1aVRBa3ZNUkx3RWRlZjhIZVRnMWhCY0Y3U2tscS0wQmJWcW5kREFZaGw2MEhjLVlrTmpab3RXaUEwdWtVVWxlR3IzZUdoX0QxUXEyd1ZzaDhHZlNlSDI2M3NKV3BsazlLc3YxOU45UG12QTRrYzd4N0h1QTJBQndiUnMwenlvVDBrRUZIMFNJdGFiWHRQYk4?oc=5",
+       "source": "Torino Cronaca",
+       "published": "2026-11-27T23:10:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Il dollaro canadese trova sostegno nelle aspettative di un rialzo dei tassi della BoC, riflettori sui dati sull’occupazione",
+       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ0xFZEhOTGpNbS1MVzBUc1c0WkNLUkFrd0VpTE56UTg3VDdob0JaSS02Z3RscFExN0ZmSm1lYVZ2MmdONHVBdGwxRUFWZXhsVDZRbHFBS3hlUEtzbjlVM19BSkY4RDdOTUVnVE4yQ2FQVHdhbmdDN3lCem5sSE9FQ0IxMVU2NWREMG1kaElqSFhlaGJNWE5lemVCQXU2SzhKczNjZGh5dGl4QndiOXNyQWdORDZkdGl0aE5TdzNpZVV1aEpLX0RwWGptQ053OUtPaFlvdw?oc=5",
+       "source": "www.tmgm.com",
+       "published": "2026-11-27T19:39:43+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Come è cambiato il trend macro di Bitcoin nel 2026",
+       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3UFpuZnp5SFhtRkctVklWdFNZMFUwQUpiMW82akZ3QmpMM0NReGhZR1BiVW1JbEp5TlpJUkNIUVBnbDZXTXJOaG1OdDR5Mlh6cjVGSDZhR1cxSHJoVlMtM1hDTEhSV0txQTFz?oc=5",
+       "source": "BeInCrypto",
+       "published": "2026-11-27T19:33:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Gold Steadies as Fed Rate Path and AI Stocks Frame Volatile Week",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdjBId0RKMFpkWFQ3R3VMeVV3T0VOMEI5dzRuWWZaMGNLVFBtRXZoWjJlWHhsdXVqdGNYT2NNc3ctSU9zdXpCR3ZaSXFENDhwQ1BQa1RqV01palJ3LWcxOWFnRXZFRm40NGRTaU9XYU9yOGF2WXAtV0lxOEdDcWZmSUxfYlZfZENjV3JUX0k5YmstSkk3V1ZWVWpkR1VjdDNzdkF6ZGxSNXpOZ1AxZmlGNThJTE0zUQ?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T19:21:40+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "La sterlina sale: l’orientamento restrittivo della BoE contrasta le scommesse su un rialzo dei tassi della Fed",
+       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFFmU2MzSUJ5UXNoTVpDelE5aWNxME1iUHAwN2phXzdFYVlJRTg3aE9YNElWVGZEM0NfLVh3bjFESm13dUVMOHNORWQ3QnpyNUFBY3cwRlAyZzlaN1Iwd01udG0zMFRsU2ZqYzZQS095c210cFZuZG82azRmR1hzSXVXN2RhWXJVRjh2cXRsLW9jMjUtTEJXR29QYk9aMWZ4UjI4YjdlaThwZkJKV0JXdGpxaGs4cTR4M3hwSHYybkNMVEtaaEZSbkc3cXA?oc=5",
+       "source": "www.tmgm.com",
+       "published": "2026-11-27T16:49:59+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Macro Strategist Greg Faranello Talks Factors Determining Fed’s Rate Timeline",
+       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMVJlUGdWQllOQ0wwM09DaGVQdkpVTWI2WGYzbHB2bEFJaExaRHd2YWVDcExIdFBCbmhRTG1RcjhnTlFQRVpmd29NMTNLVTYtSVdBZTIwTXpWSUdpZUs1WWNrcVRJcnh6dkpxa0VqQVNSNGZpRE55bWkxMDF1TjVid2dfZ1NwM3FwdG9ieQ?oc=5",
+       "source": "Yahoo Finance",
+       "published": "2026-11-27T16:23:14+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "The Big Pressures Facing the Fed",
+       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYmJVY0hNd3M0QlpLTWVBLW5iNXM3SWhZeGRHOWpyS0xxbWk3QmczdjVYN2lfdnRaNEpOTWFfRGtHdGNHbVM0UTNTS3FLNFZua0dScFRNanRvaDJmMzRFdm42OUczNUZnLWQwbDI4STFxSkljNkRETXJDT3ZaeU1aYnRvSmpTeUlKVk9LQ0lCWQ?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T15:53:26+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "New England Economic Conditions through November 19, 2026",
+       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUml5Z1NfNmVMY2Y0UkNaeGs2U0ZoOTNrVU9ZR2U4QWJLaEozVXZKYmJrR1pMNjFoWkMyZ3dTSUNfREFRLW5EaEotRXF4Mmc1MDgyemFBUm4xbTZibGtVMDNHdm9oZTFnS3d5Mlh5dG9ITUU4M05TRzFUNUVSOFlNZS12WGJYTVQ3T1cxdy0wcjZyN0k?oc=5",
+       "source": "Federal Reserve Bank of Boston",
+       "published": "2026-11-27T15:30:27+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Kevin Warsh’s ‘good family fight’ could turn ugly",
+       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ3IzVkhhUHhBeWN2cExXZ2RSTkx3UXRsZXNBeVluZ3VsbXRpb1FkNnVCQjBRRzVyMkdWUGF6SEV0b2xJSi1fb1JtRllkVUw4aExrZ3h6SGgxdy1Jbkt4dnNJTlZUMF9EcHMxdmNSdUZUdDBwRUJCRW9hR1hJaEEwdklicEw?oc=5",
+       "source": "Financial Times",
+       "published": "2026-11-27T05:00:13+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "European Central Bank",
+     "tag": "ECB",
+     "articles": [
+      {
+       "title": "Vujcic and Kocher Hint at More ECB Rate Hiking, Kurier Reports",
+       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYUNzYzhrVm90SnJtZThZb2NrbkRNTDFReGVGZnNxNTY5Z3VYY0xvV3IzR1E4T3ZPUDFYWG8taE1na2pzUnRCLTRHTjI2ejRmeHlYWEZkUjVLV3ZtSlBPNzZNRHUxeHlHbjZ2LWZ1czNBOUNVc3YwTDIzUE1mZ3k2OTNpVW54Q1A0cWRPQWx3Y2lLUlFBTTRsZlpUd00zVE5iY2NKUGVVX0syTWUwX3FfWXhn?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T22:49:15+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Euro-Zone Inflation Is Seen Weaker for First Time in Five Months",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQV91VXMzbTBWRWtyVHZlbmxqSFdtQnNteHFSTnVRdlJCVm9NZUdCMnROT0E2U3dLREktSk5GYkl2bUF2UXhrM1FDVFR0dTktMnVTUDVqWHZJTVdtUDZKUnY3YUFadGpZdU5xbHJhcEFUaDQzX3EwekliN3I5VXlzVXZ0VUtPT2c2SEVvbC1wX1MwN3dKQkU0TWwxTWRIVTU5bUxYVmJVeWRsZTAwSEVlUzF2ME5udw?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T16:18:45+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "BCE, Pablo Hernández de Cos candidato dal Consiglio UE alla successione di Lagarde",
+       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPalFnc2lwaWVUT0o1NVo4RHRkWUt1elQ1cDFGWERqTUktSUdxTE1TdGh6UkFfckdYU0RnMzc3N1NwaElpOUNwa3prQm9pVndXeGFXUnktTmk1bndWWFItUjdYSDNjMFpmelBHOXZzdWZkYWo4VHpYRFhkblAxTXlHVEpKV2ZNRHpvczVUdDNXLV9pZm12Z3JxV09pRGRQT3F5M2VVY1cwNWlXUkVqZXFDbGhaSWxOelV1cEZ0Wl9sX3VaTmN4N09tcg?oc=5",
+       "source": "Corriere dell'Economia",
+       "published": "2026-11-27T14:47:37+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "ECB’s Nagel Signals Need for Another Rate Hike in December",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRlpPOVV2bmRKNmQ0WFI0TlNOS3haQzFnOFJ6R2Y1ME5YUURJV2RMTldFTXBpenJzWWR5UkdfdGc4ZW02aGJFQV80V3RvMDl5S2FTaXdCZ09zS1RUMm15V19HV3FkbXZkMjVkOFJMbTVwbEFxSjNHRjFlZEZ2U3FTaEhyUGtkVFEwNzFVR1c4SGpIcEFWVlhqMERqelBUSWJDbGo5NHNGdzF1d1dPdnc?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T14:47:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "De Cos alla Bce, il rapporto con Mario Draghi e i legami con l’Italia del successore di Lagarde",
+       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY1hndmg2MFRkMUhFVi1rbHFsLU5mZ3NUeVh5Tk14RmFxN2swLTVYbmk3Y0dGaFk3dDNRaFZocE9nTVBhSThwNTFwZ0dKalQ0Ni1aQU9hOU9zRnRoU1M3R2poMmpFRFVPLVMwQ3F1Z01maVRKcGZzX0pXMFV6MWhXdG1VeWdwRmM2ZVcwR2hlNm80XzNDS3haZnpsMTZGSVpwN3E2dE16Qy1pbzNTMTdrVDgwOFJZczA?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T14:26:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+       "link": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261127~13ecadc0f2.en.html",
+       "source": "ECB - European Central Bank",
+       "published": "2026-11-27T14:00:00+00:00",
+       "lang": "",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Bce: Nagel, potremmo dover fare di più su tassi",
+       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcnBLTFZsZE1MX2l6U0xLSVRucWJscWQ0TGhITmEyYk5haF84Ry1rSVZOeG8tZTZSRlN3bHZnc2ZUS2U3akI2UVBWZEZTZXc3czMyVHRxSE1yQm43cjY1WVN4RHUxMlJUb0RVZW11M0tiWWdZWVdyWWFlQ1VMTEZtUFNCRnpIc2E2enBDNVR4Y19tZmFEV3Y4YV9yUHhXWXRHZ3FBNkhGMGw?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T13:50:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "ECB may have to raise rates further as inflation stays above 3%",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWjZWeTZiZjhicmk5NDhSTG1DUlFOTTJ6eExNcUNab3JiTTlHemhjZ05sc05Fb3g3dWVGbmlQRGJZZzBPV3hOS3R1cVlLOExWU0QyQlBFSVpFV1hmSXRPcTJMX09pNldlRXpXNFJSRkhtb2ptWERxR0Q5VUQyX3hORnZ0X1BUSElKTG0tSVVFOFEwbG9WZjZJQ012V1Q1ZU9vdi0tTEQwTXE0Q1hBTkE?oc=5",
+       "source": "Reuters",
+       "published": "2026-11-27T13:15:43+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Inflazione, frenata a sorpresa in Francia e Spagna: si attenuano le pressioni sui tassi BCE",
+       "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQRVR4cG9idHVlQlRhNnhfZVdLTVEycHNjVi1JekJvMXFlSHZvOXN5RURDWkcxOFJ4Vlo2Z0o2VkROS0w1UDJNQW1vOTg4UnRvQ1Y5d0J2RFY4ajkyZ0pDS1BnMUI4aE5YZlRHODlMSkNxLU53aG1MY05SRDVaXzM0NjhYcnRJZ3MzanQxOTEtcDAzUlpiVjUwN1F0bWlkY3pKZzk3bXlZd0hOUWFmQ1VaN3c1WWpTOWY4ZzRDbUhCbmVIc2Y3bk03UE0xeldzR09kRDhJekoteHgwbE1ieHp1YnNOQ25zYlp0ZWMwQzVtTGdFVmRXRUQ3b2Z1WnMzejNTZVNFSkdlbDUxTGVEakE?oc=5",
+       "source": "Borsa Italiana",
+       "published": "2026-11-27T11:15:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "ECB Consumer Expectations Survey results – October 2026",
+       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+       "source": "ECB - European Central Bank",
+       "published": "2026-11-27T09:00:00+00:00",
+       "lang": "",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "Other Central Banks",
+     "tag": "CB",
+     "articles": [
+      {
+       "title": "BCE, i verbali di ottobre confermano l’orientamento restrittivo",
+       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ01wSnlyVmI2QkszNFl4Qm1iaDBhOTh1NG1XMUxzdE0yNWdSQkZqQ1Y2aXVpRmk2NkdmWjRLb1h4NnVUR3JqSi1VQWVBZnFnbW43V0dyLXNVTGptLWRmUUhWNGxGZkxCS1ViOV9qZmhXdF9PTnl1S2djUkR0SjJkSm9SeEcwTWl5WlN3S28tY25wOHZR?oc=5",
+       "source": "ing think",
+       "published": "2026-11-27T14:50:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Yen debole col dubbio BoJ",
+       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVG5IZDhJdW4xMkk2TGFUTk1kSkR0cEZqN3VHNXdHSnk5bXZ4bl9YTmdUQUFCd1pqOWVMN2VybklBdF94RWVSN2Q4eWx1d1VfWHpiT0dycUszQ1FmZnM3S1BybU1tRUUzNjZJTExzWE9jOV8yaml3cDJLX0xnUFJrbHlkMG9ZU016R25lRWpyUE9WY3RaczVlanNn?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T14:29:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "La BCE verso l’aumento dei tassi di interesse a dicembre",
+       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbGRucGdSZGFaRU5JOTk5NWIxYTIwS25GT2lnWlBaakJQMXhDdDhwblFrMmt4RklWUVp2aUU2N2RiQXF6TkRWZngzY0UtYU5XZ0UtVkpOaU9RTm1MQzNXZVBVMnBXeUhodm9DYlplOGNaSGFfX3VsX3A4UEdPRXVaSlRnWE1wamZjM2NOU01ldHBxZUk?oc=5",
+       "source": "Eunews",
+       "published": "2026-11-27T13:41:51+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "La Banca centrale europea potrebbe dover aumentare ulteriormente i tassi, mentre l'inflazione resta sopra il 3%",
+       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcVpGTzZQeEVIZ3RNS3J6SXFEY3VjcXF6Q0g0V3d1Q3FNc283RXU1WGluLTZhX2ZxcE50OVd1emVqLVE4TmdpYURieDBJY3ktUkZtMjVmRnNpNTRURDRHUGZtU01keVpYYkx3N2doS3MxRjNoM1Itc3RyZU1iWVV5RTU1OXFWaWdzazVxYVRkM2gtZDR6Uy05TFQ0emR4TWRUNG52eXpCSzZIU1Jwcm56RnlvOHlhVFNUcHVUSTNpNTB5SVlhZjdEZXF3dGQyUzgzN1Y4dmtvem5uWjVHNTVkYkNHdVB1S0JR?oc=5",
+       "source": "MarketScreener Italia",
+       "published": "2026-11-27T13:13:11+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "PBOC Warns of Rising Uncertainty, Pledges Ample Liquidity",
+       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObTVoQktnMG55S1JDWHJ5aV82eTdYLU52aFV0Y3JoYmJaQkFmcnpITktaRkNlYVRLVGhWdlM3aVVqZTR4YktHTFA2ZnRGZFU2dngza3dIMUNkb2NsWGIzcjY5djNvTW5YYWhERk96U25OWXFac25uU2swZm1GWWt3XzlBWmNzWGxMR0FzMW8yeVVZdm1yLWdEaThNZnlPSk5LNUpDU1Y1NVZfRzg?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T12:57:24+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Sta per arrivare un nuovo presidente della BCE: abbasserà i tassi di interesse e faciliterà l'accesso al credito in Europa?",
+       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcU5tT2k1WXh3dUx2cFFtSEt6ODdGN1d3WUZtYWtYdjU3UHBEbDVMelBwY1JnSXFoNklqdWJSNWpSVWVvanNFWU4yeWh0Umd6S2o2c3habDRpMHJ6OWhuRGlUMk1kTE9aRjl1a1RHQkV2XzV3amlEMjQ2aVJfcjBST0lmcXkyc0VWaFFMLWFqOGdSSFhNcF9NcFpwalMtNTh3UkVENl9OSzhpQ3BpaGJucm9nUHBFejlRNm1GYg?oc=5",
+       "source": "Слободен печат",
+       "published": "2026-11-27T11:53:58+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Banks may pass on £1.5bn tax rise to customers, warns Bank of England chief",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMHNCS0NCUnBtcXhPX3VkVi03NXpNTWtoSEhFdnJsM2dDZHlUMV9IR29Wa2pXalBPeDZlSkFTUl9uWFBQV2lLeWR5dTJNRGplcTZDOXhSMU15NkhPVF82aWNHdUF4c0VySEY2WVR0Ny0yT1k2RzQ1QkhFY08tUzlYUjhzeDFvNVRRTDNDUnNuV3U2dlBfOGFsM19PdVFSMjBBNV92TQ?oc=5",
+       "source": "The Guardian",
+       "published": "2026-11-27T07:53:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Tokyo inflation backs a Bank of Japan hike that may not rescue the yen",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTTlVZkN6U29xOTNmQmxyWnNlVzZCaFlhLWlEU0JsR3h2M2FWcUlQMWpqMmpVb0xyaTN5YW1TbmU4Rzd2bGpSZ2F0bktoVW1ZODdtdlZ0VEcwd2loY0J2TkNJUVBoQk9QWVVLREZNVkN2eWVvLWltMW9laFhQM3ZseG1rbEw0NGJHal81TmJVYUdjQ0lRVGJlY0liTTZBd3c?oc=5",
+       "source": "Startup Fortune",
+       "published": "2026-11-27T06:58:15+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Bank of England to defy market pricing and stick with gradual tightening",
+       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQZXJ5N3RRa3hKLThzQ0VLWUZHVXc3ZzBpS1hqTHBJYkRYSF9oYlhVbG1QV1dhN1VUNFhiYkxiWU1wb2JxYXJoWXF3MnBlUGNzQmpPMDgzcWZ1cXBNQjNONmRVRXlrc2ZFWWFvekduVk0?oc=5",
+       "source": "Financial Times",
+       "published": "2026-11-27T05:30:02+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Bank of England boss warns AI must benefit humans",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa0ZkcWpUbVRQdFZZd2JVa0c5RnVzYTdJYlhzTDFNYVdaWkFCbnBXMTduRl9OR00tUFBpQzZvbVFDQ2hZVTVXNmxvLVl4X1c4cVlqTE51VHlndWFiM2dFdVZCX011T0J4WkQ4RGw4RzhOUl80SEEtNlNRSnJCVHFVSXM5UEJCOGwwb0E?oc=5",
+       "source": "POLITICO.eu",
+       "published": "2026-11-27T03:14:47+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "Inflation",
+     "tag": "CPI",
+     "articles": [
+      {
+       "title": "Two Measures Of Inflation: October 2026",
+       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSmZVOVFIaWVJNzdqQkVlSm1XdWs0eVRiUGJqYjVMTzVwWFUwRTFpZkptOHVqZG1mYUdzR0VNMnBVSlRJa0VGM255Sm16N0ozT1VpM0M1TW5RUWwxNlA0OUpwYmtoUnd6Z3NpYkpYcmJRdHlYaVVxOVJheG1SdjE4Wi02YmpiZw?oc=5",
+       "source": "Seeking Alpha",
+       "published": "2026-11-28T01:40:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "December 2026 US Calendar Sets Jobs, Fed and Inflation Dates",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41aDcxazN2NEpWUUJQVUZyVGdPWDNjX0JwVlp6dmxNcmdqbi16S0hKSWNYd3FET0ptT3JxNml6SDZtMjM3TWVZb3kxTVpHQjZiVVJEbkdPSENJdw?oc=5",
+       "source": "www.tokenpost.com",
+       "published": "2026-11-28T00:48:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Bce, l’inflazione attesa dalle famiglie sale al 3,5%: peggiorano le prospettive sui redditi",
+       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ1g3SGhaMGZZZlZIemUyTEtzNUY3ZGVlR1c2YTVTU2RFNF9HNmE4dHNkZk9CeEFRcTdORWtKTmFaTDE5SnJJeElDSHMxMjZpQW9hRGkxTjFGUjNrbzZlVmZxQlc3WnlUWVdXdnU2ZEZEQmExUEhQZFEwUVNkRWtUOFJuaXBYTnlQRk1LYU5JSnk4dXRu?oc=5",
+       "source": "Fortune Italia",
+       "published": "2026-11-27T20:09:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Dallas Fed’s Trimmed-Mean PCE Inflation Rate Rises to 2.4%",
+       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hMVBpVGg3bkNSOUVDbE1Wb001bzhTNkZoZWZoSWtsOUdHckN4TUFpZjFjUkxpb25va2U5U1k4X0lJbEQ1dlhMS19uSTlCTGhWWTNhUmp5bmdabzA?oc=5",
+       "source": "www.tokenpost.com",
+       "published": "2026-11-27T16:37:30+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Huang al Congresso Usa, l’Eurozona al test inflazione",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTl6WlV2dng5NUY0UW9mTEkyMS1yNTJoS2xnbFNhbGxZaHRrZ1ZFbUVqYzdRbXlsbmR0M3RralVSQ1NkQ0VOZ2UydkRISDF2MGY3LU1uY1NZUmFJSWRua2ZOUnM1MnUwa0ZPTjhodjhTNTFIbzJjdVFocWpRWW5wZnFHNHNvcDhoZUpDcUhqeDFpS1QzdG1XR0JvX0h2c20yME0zRnBR?oc=5",
+       "source": "Il Sole 24 ORE",
+       "published": "2026-11-27T13:58:17+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Eurozona, aspettative inflazione aumentate “significativamente” nel breve",
+       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2lqZ09LYkwxOVh6T2dLUDZVY0VQc3FfdkNmSm1yVXFrQXRMcU8xLWR1d3hFTTFtQ0ZpRll2ZVNVSGNSeHhaWVY3LUJjRENNQnJJNWcwdzJHZ2RqcUJiOHp0UFlsX0YyRnBybkJyOXBrTkdFY3FSYmRDTmFTLUxFVjltSGViRzRJXzVxbHdoY2djM2NmUTZ6V2tON2xEd0FkV3V1bFV5WGxFZGdTVDhFRlJrOE5FQjRK?oc=5",
+       "source": "ANSA",
+       "published": "2026-11-27T09:42:58+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "In Francia (+2,9%) e in Spagna (+4,1%) rallenta inflazione su base annua a novembre",
+       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaVZoY3MwbUZVRXBxZG01VURpUjl1dEFDYTVTVUZHVTJXem4wclA4UDcxMmVGZWpQVWhKeEt1WDRpWWoyOTcza0hBSmhqS251OXBBa2syLUtabHhLWkpUcWtuRGdQV2JHaHBMTHV0QnNFNV9JdFMwRnlCalZZam5JdUtpaUl3N0V6bmN2aWZKdzgyN1pOWlo3c0NHeTZHM3dfRF9DT2l6Y2hHYkY2RzNHeFY4RVFIY0owMlUzUEp2cw?oc=5",
+       "source": "Il Sole 24 ORE",
+       "published": "2026-11-27T09:10:14+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Borse oggi in diretta | Ftse Mib chiude in rialzo dell’1,9%. Fincantieri, Unicredit e Stm i migliori titoli. Spread a 106 punti",
+       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQUHE3Q1hsQ0R1RGxFeEJEUF91d2plcVB4dWpzWGh5YzdOai1SbG1vSE1NMDlfOHU3Uk5yTlluWlpoTml6VGhldzJsdDFsTHk2RGQwc3ZHNUxTeE1YZUxTR3A4YlFwRlhPWndHWTZTYUVZVi11MEoyZGdKM1pZSEJSOFB5Q3FmVG9SWnd2UE4zNjI4bE1GeDZ2Y1p4UlF4bTJkaUtzSFMyaTdXR2hPbXdyRHZFVmNoNGVISExxTFpjRUstaDQ3QmZza1VZaVd4bm8yWDNxUEtGRFVlaXItbDkxdURpYUk?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T06:35:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Tokyo's core CPI hits 2.9%, strengthening case for BOJ rate hike in December",
+       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORXF6Y1p2eVk5b2VSa2hNQVAyeFV2Y19SRFVteHd6elhlcUs2Umt4Y1dNaVdZeXBfX3BMY3NLVW5kc1lfRFlWWFZWb0ZBdUVsUExSZjRVX0h4d29JVmktaURkS1FoTWdfQ2JJeVFGY2Flb05SNkZnR08wRlBzdzVCNG9Zd2ppWjk2NFFnSld3bExsbHp0WlRSRk9rdm8xemFVUjdPNkE1UzBsamY1RFM2QmhDR0JuRG9XZzBaZm9rTdIBxAFBVV95cUxNWmZGQUdhaHJhY0YtR3NFcmtMeV9mNmNyNjFhdlVEclJDRC14Y0JfR0xZQVZZZnl5MXEtNWstQW83VGdFdEU4VDhoXzU5ZW10VFdzcjExOEtsZXRaOHdXM1ZtZmNrLW12TWozNjQwX25ENzJqQ0dwMjlNV0k2UTlHbnJrdFYtQzJIS0pnbUl4U2x1QmpQc2lZajh2Tld6Y3lsYUdER1VVNmgxOXl5X184YkFweDA2LWNzOWxVNHZ6TVM3QndD?oc=5",
+       "source": "CNBC TV18",
+       "published": "2026-11-27T01:49:51+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcC1BOTk5RDl4MEhDRXl4a1J6VktNMlVWWWx4WnZoMzdEdHRfM1hoS2RmZWdfUFNzMk9JVlBJYTAxMzRMdzlPMXE5WHZUaHg5TVhYUWlhTlI4blpWazdfTG9nTjhnbGVrM3FWMjF2YjhhZG56SWtid0Z6YmFWMkJlejNwdzU1cnVJTl9jZm1aV2g3M0lXVnRtWENUVDJZLVdQNThfRDZTdE1VSmtWd29ibC1TZw?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T00:55:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "Growth & Jobs",
+     "tag": "GDP",
+     "articles": [
+      {
+       "title": "Cohesion: one-fifth of EU regions have a GDP lower than that of 2008",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUlZc2Q5MjZtby0yQW1tZjVGeXB5aWdnM1BTOHNFcjM3cE45eTllSk00VzM4NWZTRW11aHhzRy1tcnkzODNyZVd6Zk1tamFwTjhaOEh2MVlST2c2aDFtbHdyQ3VhMmt5QjVJWUFJeWVQMzRfX09FUjJQMDV3WE8wUFlJVVpETnJUSHhCOWFwaUdTMnN5X09JbDJIYndEUnJk?oc=5",
+       "source": "Il Sole 24 ORE",
+       "published": "2026-11-27T17:41:08+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "L’economia francese è in recessione tecnica",
+       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51NkU1ZVRCbnpJclZtSjhaeUxlZmVlLVU1QzFSNEtlR2stOFNycEg2cWNkdWRpaEROSzgxYnk1Q1dYSmc2dVNVcGRiN3BueVNsMHJUc0R5WXpQOWwyR2lVVXdnUEYwVklaYmNKcVVBelN3RWNRVjZQMWZn?oc=5",
+       "source": "Il Post",
+       "published": "2026-11-27T15:29:03+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Trump Wants a GDP Investigation Over the “Fake” Pre-Election Number",
+       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM2hFSEFCUWdMVk9aZkpmQk5NSzFLQzRTQ2ZNWjhEY2IyRTFubTA1MFYyNWl0bnBPVFlkZkxhY05SQU5HVm1NUXgzbEtzdmNBOTR1T2FFRG5pb1pqZUhTZWR4SEM4SFFfcGI0Y2R3bllwYXZsTGwtT2wzQmlqVTE0QzVqSnNkT2ZnSXNIbnhCaURXWXNXOWQw?oc=5",
+       "source": "Yahoo Finance",
+       "published": "2026-11-27T12:38:55+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Trump claims revised economic data shows pre-midterms figures were ‘fake’ | First Thing",
+       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWGRXZ0hnTkZ2ajFXVmRtMHlxT2d2OF96bFlRXzZ5bS1ldzZienAtcDNEalBnVWg4NS1Oc3JpYm1SWkpmWnNGeTJEYkdaQkFHS3JJd0dWMDRtR1JfekZERkFpRFlLWnhULV9sT3N6b2hOSzdaRDJVNGdtcndQU1h5R3BlVVRhaURfS1d1a0FBZDl4YlFDd3RJdXhrYjVqbzA0ZDlOdUxaN0dXNk9RbnpCa1pTUGkxb2d0VGJCTy05U3d1TDNKel83WjVPRQ?oc=5",
+       "source": "The Guardian",
+       "published": "2026-11-27T12:38:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "France in technical recession after quarterly revisions",
+       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTER0b3otWTRCSmNQXzlVUXVMamtxeGxHV3BMQkVoRnBLTkhsYnFIdXdySXRYNUR4RWxBVU82Mk5oVDl1U2lNaTJ3U3FaVnpLUFM2UDZvSU92VERNcVBaOUtpVVpkek9vTFhZWG52TUQxUDNFVWs1UVZJQVpuM05SOGFQN29nblhlb19NeW9KYVM5OWlDV3NycXJkTG9Zc3d1Zm92VGNLaWlCN2It?oc=5",
+       "source": "Reuters",
+       "published": "2026-11-27T11:50:26+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Germania, a novembre tasso disoccupazione stabile al 6,4%",
+       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVl91LU5lUGJzUHJWWXE0QnFvWHJNdVBVYWZfZktldFZ1UUduU2R1cWc3eGJSbHhVMUtvd3FJeUVvLWJUdFJrMjhqaThOQlBiNkpsamVHSXM3UTBQLW9iUmtSZklsQ1pQTV9uaTh0UHhDZ2F6T191ekhiZFhFbnBNejJ5S3ZLZHpfSzMyMXpYUURDOG9mYVhlQmZoczY1b29INTZXb0wzWGI4RnZxMXJydF9kMA?oc=5",
+       "source": "la Repubblica",
+       "published": "2026-11-27T09:11:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "French economy shrinks 0.2% in third quarter",
+       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWFJnQUEtb0dnRGpwVXBHbkFCdnFaRE9jc0dObmxxMjc3alR3ZGtSc2FkN3o0T0o2anNIcXhMWkhXdVNZZ25jaWJzeFFUMVJlaTBUalRQSEN6X2xCZVEwNnR5VkZzVW1JbWtPQzlMUjBjZ25lZ0hkWGVPNGRYU2pFWElMMTg?oc=5",
+       "source": "Financial Times",
+       "published": "2026-11-27T08:19:11+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Francia, frena il PIL nel terzo trimestre",
+       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRTFORWtWckRrWEdlLV9ZWDQyQUFlejM2RnRKbFhaOTRTY1pRV01UcVV3cFUxM1B6emlRZEtUVjVPQkhVeGZvTEZwQ0k3SENBVEZqOWRTMWtFTnZpN2xaZkFLTEJacGpzQWMwWnY1cG5FY09wbk8xeW01RW9sbEZNaEdOWFg0WnZPNE9NbkNLX1p1c2Zr?oc=5",
+       "source": "la Repubblica",
+       "published": "2026-11-27T08:02:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "PMI innovativa Trentino",
+       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WMDltNEFZZU9VNlUzTmV2TkpQMEpRLUFJMk56MG05YW1LOEw4aVlWdGtrYWZ5NG5BLV9MX3lrTVV1cXlZRzZDazhaSzNkZllHSVBiaWJMS2hOaDBpSkhZNXljYlRLVVdfTkpWdnRLRTVNMkFmVUN3?oc=5",
+       "source": "Corriere dell'Economia",
+       "published": "2026-11-27T05:42:09+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Trump: «Il Pil Usa rivisto al 4,3%, i numeri prima delle elezioni erano falsi di proposito»",
+       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQME9oQWVjMzhFanNtSlFtZ3lRSy1FYWpjX3FGMWZ5Zm02bm1LeW9lNS1xUlF1cU1kcHF4WVJ6R0NzS1Q5OXNIeWNmQXFqSy1ndHEzNndhQ3RyZXEwdlItMloyZmRiQXZyQVdhWkFyYUdTaENyaWs1VVBrSUJlTU9TeHNB?oc=5",
+       "source": "Il Politico Web",
+       "published": "2026-11-26T17:30:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "Bonds & Yields",
+     "tag": "BONDS",
+     "articles": [
+      {
+       "title": "Dollar's Sharp Retreat From 20-Month High; Flattening Real Yield Curve Signals a Peak",
+       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wLU50YXdfc2I3SVJhaEF2WERsYVlIV2ltUW1mc0pQSWpfaEtXU195eUlwN1QybU94MUNPdDBmV2d3ZmpDSW9xTHdGWkQxUzA0WWg1bDhKZE52dU13cktYUFo0MndMTzI4ckl2ZUYzWVpOSlFhbXc?oc=5",
+       "source": "BigGo Finance",
+       "published": "2026-11-28T02:25:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "IMSS debuts in Mexican bond market",
+       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZGRMalVPT0xkcFR3RTIxdW1VRVdrdUpDby0ydm1OV1psU215T2pKT05pcTg2WTlLLXlYMEJVQnU3dlllV2JvRWRib3Y0WkxuMGN3NHpodHVDMEc1ZWxwRlM2aFRkMkJvcHh3V21YbkR5MFpvVHduVXpWWmp2bEdxOFlHQkRzRE5iVVdn?oc=5",
+       "source": "LatinFinance",
+       "published": "2026-11-28T01:10:59+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week",
+       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdjc3NTFwdUVUcDBwRjhxLWFwZGNFVEJIUHh2WjZ5VWRhUEdqYUc0MTFubHhmeldMc045cGxEckJDMDAxc3Z1RC1hdjUtOFV4aFFyTGdMbDlmbW00ajdoYzBFQVVBeWQwdU9WNEJGX1B4WXhBblpfVm5qWVJBNDZhMlJENi1qRDJzRkgwRkNXVk1qOHlzQ0F2Z1BDN3hxU2JaZVJ0cVBxQnBHVU1Jd3VGb3Z0MzVaaEVpUXhMUnoxY295MkJPZEZkM3Itc2lMaDM2Uk9mOGFB?oc=5",
+       "source": "Stocktwits",
+       "published": "2026-11-27T23:17:56+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Betting on flatter yield curve",
+       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVFkcjhISjFnZXhHTC1GWjB6VkpOR0dKMFRJRkNyZk1BTGwtVTNnQTNtNTluNnVBWTRJLUJiNVVLRmN5aWt1MERXWE85amlXRkp5aFZCVlpTbmozQ2h6MlMxVzc4RS1VdGtBVWpBWUlXMmhBMFlMaFNQV2lTUjFDNnFZTEVRcl9Xa2FoenU5aWpZaUhxdXc?oc=5",
+       "source": "The Star",
+       "published": "2026-11-27T23:05:29+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Stock Market News - Bond Market - Currencies Markets",
+       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1WSk1SMEVJUWVGN1RIVTEtSThObVFxbkFHTE9ySmdyRUx4NjJMNWsta3lOaFBOVFF5eUEtN0lVaXc5QlFiTEdiQVZYSQ?oc=5",
+       "source": "MarketWatch",
+       "published": "2026-11-27T22:19:24+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "*BOND: spread Btp/Bund in contrazione di 1,43 punti base a 105,806 pb",
+       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTFdWNVlza2czdWp0SExYQ25CWWkwZ0RpNnVMcUFhNjN4LUpHTktDdEFhZEZXQWk0NnBnZFBEeFJNRWttM3VCbFd6Z2gwYkVYVEk1eEdqTjhHVXhCN1BrMExTUkZmME4xSHFsODN6NVkwcDNUN19RcjFqeWVWbktpNlE3bmdXdEtMT0kyZXZCUEFUUWpZbGFoTG01Z2t2RDlaTTYtcWY4dHZ3bHlRTVQ0OWZzaTNRUEVUQzFfVVVrUlg0VHF1REE?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T16:36:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Spread BTP-Bund stabile a 104 punti base, mercati obbligazionari in equilibrio",
+       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQV2NfZ0FFVDRocW1TaGFfWm5BTVJndGVzd0J0d3NqMHd4MDVsUkhzbnloOTdPNTRKYkdaZVNxbDFxbzlmb0RxNVZhejdBQmREb1ZCZGU4ZzVnTTJXY0NxOXJoNDNENmJlODZ3d3ZWZ0xRX3p6MUZRdEY1SGRKZnpCUUFYbUVncmwtWmU1NHlDaU9HRGpVbEM2Y0NNeXQxeG9EVjd5Snc5ZG1pNVJUOXdLdzNkcWhBZlNnSS10dC1LV1pobmVtdzFMVnBRblJLbzVPT1RYb1JrejMyUkk?oc=5",
+       "source": "Traderlink",
+       "published": "2026-11-27T14:33:12+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Btp, il Tesoro colloca i decennali con rendimenti in calo all’asta di fine mese Da OraFinanza",
+       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRTl2ejA1ZHZMUS15eTRVbVhjWXFEdmZGTHdoWTdKLW4xSWRmdktPUWFibGwyTXJoZkxKLXA1TFVZVXlMUTZHY25tNjNxM0JjMjVJMTRac0JqOUR3NUVBM2VHdUJCY3Z2eHNVV2JPUlpJSTl0WWt5OXZHVzR2QnNfTzBFcks5R2k2bVhDbV91UlIycVVIOXZ6N3dTb2tBTEVCZVZCUnhxTmhBYVltZXVNV24yc3oxRHRCT3N2ZG93dU53Y3dUdk9zaUxpQW5wQQ?oc=5",
+       "source": "Investing.com - Quotazioni, Borsa, Economia e Finanza",
+       "published": "2026-11-27T12:15:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Treasury yields are higher as investors look ahead to payroll data",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VZE5oYjlVeWluQTU4R3YyeTNXclpnbDlnZklWOHQtaXFMZ2pKTGhlMUlfWlRGZWhuZERVaE5LampIR21EU1ZtT2FuOFMtdFU1MDlFWFBDbTM1S3ktYXVPLVBJYXlKaG9CR3dNaVZjNNIBdEFVX3lxTE05U3dmc0U2WGM1M3JZNkRBaWlWVXpxazVqZG5WTFFQVWZJUm5QcWtva0duRFNSVVRpWjRUb2EyYU5IOE82aHBxTkptb1pyWHV3Z2FySkRoQl8xcnJqWUxuZFdQaktvUU5DUGlKR0xkQVo4dm5L?oc=5",
+       "source": "CNBC",
+       "published": "2026-11-27T10:22:41+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Borsa: l'Europa corre nel finale, New York chiusa, Milano +2,7%",
+       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTFZqbm5Qa0RCREJZemduVXhZZkxQNUFHbzBidy04MHZnc05vVHVmWW5heEFfa3dHY1VVNFR2OUlwdWlHdU9md1NPQlRJb1lBRTMzR2JHSWl5c1kyYXdFOFVOU05uZUxFZjdnYVJvM2taVFAzMTNhOFRYa0RKaEJJWEFBQ250Qm1NaGRRb0ZZdzY4Rk9kYk5nTW5pOEQxbUlxaktiTi14N05KaDZwYzhZcHhYeU5tQkpKbkZpUFhzMWR6eV9KY2VCLWlHRFlwdFN1U3M4UWIxd9IB1wFBVV95cUxQTFZqbm5Qa0RCREJZemduVXhZZkxQNUFHbzBidy04MHZnc05vVHVmWW5heEFfa3dHY1VVNFR2OUlwdWlHdU9md1NPQlRJb1lBRTMzR2JHSWl5c1kyYXdFOFVOU05uZUxFZjdnYVJvM2taVFAzMTNhOFRYa0RKaEJJWEFBQ250Qm1NaGRRb0ZZdzY4Rk9kYk5nTW5pOEQxbUlxaktiTi14N05KaDZwYzhZcHhYeU5tQkpKbkZpUFhzMWR6eV9KY2VCLWlHRFlwdFN1U3M4UWIxdw?oc=5",
+       "source": "Corriere dello Sport",
+       "published": "2026-11-26T16:08:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geopolitics",
+   "title": "Geopolitics & Policy",
+   "description": "Trade, governments, regulation and conflicts with market impact.",
+   "topics": [
+    {
+     "name": "Trade & Tariffs",
+     "tag": "TRADE",
+     "articles": [
+      {
+       "title": "Dazi Usa sterili, schizza il deficit commerciale",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSUR6Zkl3TWwtLTNjV2Z2UlJEUFVYWmFjRmNtal9GTEM3eE53WGZQdzRGVGMwM1VsQ1BPdmdJYkhjNGNycEpwcEVzR1NTTEpFMUFYOUNXUWFNU25uRnlXUWREc2dpWjZENm1sZk1fNzlZQmdJa0wtQmRnbjFORmFjbzQ2a2tGbEZERlVTVXRSUlhSQVI4UWYzZVI4STh2T2dxSXozZDk2NnFCZENQSHc?oc=5",
+       "source": "la Repubblica",
+       "published": "2026-11-28T00:00:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Ecco perché Trump ha deciso di introdurre nuovi dazi",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUGtiS09INUZ5VzBwRzZPbkxZdTBzZF82QXFmaS1RNEd6VGJ0TExrOXNoUGhtREx1X3dmVTNjbmpqcjV3NWstc1BiZ3c2UllNekg4VVprb05iQUVUUjU0TUQzcHhjb3lvVXBmRk5YZDJqNThWcUVWckZNYzhUX0l6TTk2Y1Zlc3YtNmNuWHY3TVJlY1NPVC1CRGhhOGdQMjBDR0Qydjl3?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T18:20:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Usa, il deficit commerciale si allarga (nonostante i dazi): pesa la corsa all'AI e le spese per i nuovi data center",
+       "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPT2JlRFpoaDBIM1l0dWxDQzdxUEtmRjgteExIelJ6TEN0eHNIeDRUOGZ3T1VkWTNtdXpHMi1xWE1CQ3l1UVdndjZOek82VWo1SlRjVlU1TnBhV0E2aDdQYnRwNGtMZ3J5WnNFcEh5REpLQUtoalRINTlOZVBDamhoMWk1a2RYbWhCVndwU1VmbjMwaGtiUkRUWU53Tml5ZlIzMEwzUW5UdGRZYzlLRjFEay1jd1BrOEVoZ1dvSENzQ3dQZXE3a2dpV2ZUazFRcFV4WmpqdGVfUzlFMHRTc3R0Q3VsV1ExRmwwWUNPMGtPNE42VGRJYzU2WGpXbjNYX1lia1UwQnpmeE1xcERKUXF1Y2ZONE9CRXB1ZjBpR3I4MUo2Sy1UNVNHVUw4U1AtbjZBYVdvZzRXWmpuZ9IBugJBVV95cUxPT2JlRFpoaDBIM1l0dWxDQzdxUEtmRjgteExIelJ6TEN0eHNIeDRUOGZ3T1VkWTNtdXpHMi1xWE1CQ3l1UVdndjZOek82VWo1SlRjVlU1TnBhV0E2aDdQYnRwNGtMZ3J5WnNFcEh5REpLQUtoalRINTlOZVBDamhoMWk1a2RYbWhCVndwU1VmbjMwaGtiUkRUWU53Tml5ZlIzMEwzUW5UdGRZYzlLRjFEay1jd1BrOEVoZ1dvSENzQ3dQZXE3a2dpV2ZUazFRcFV4WmpqdGVfUzlFMHRTc3R0Q3VsV1ExRmwwWUNPMGtPNE42VGRJYzU2WGpXbjNYX1lia1UwQnpmeE1xcERKUXF1Y2ZONE9CRXB1ZjBpR3I4MUo2Sy1UNVNHVUw4U1AtbjZBYVdvZzRXWmpuZw?oc=5",
+       "source": "Corriere della Sera",
+       "published": "2026-11-27T18:18:53+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Temu e Shein, fino a cinque euro di oneri sui piccoli acquisti: come cambia il business",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZWJjYWNfS3kzd2paQ0lISUljYWlqZFhTR1hSdkh6VEtTT3FUMlBTT2doazlsVHIzS1J0cTZaWnlCZnUwSDNfRmtOeHhpM0RuZGtsdmZnd09LNnVWV0lXa1RjQTFieTByb0ZYdEdRZnc2OUFlUk5zN0VleE4weWFIbFJyX3F1bnNvOGc?oc=5",
+       "source": "Fortune Italia",
+       "published": "2026-11-27T15:07:20+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Dutch PM to discuss MATCH Act chipmaking export controls with Trump at G20",
+       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWxBYUpTVDhrVzJiSHloOE1CUnA4SURkemtJVFRkM2g5ZWxUUFBIeVd0M3EtWThILU10MV9jcVJuNjNzdlVibndDU2JTMDdTc0pMZnJuZ1d4STNvbmtYMmY2VU5UcHlxaHpIeHM1YmR3MDQ5MEY3c0lsTFhJbEtGUlRmMWczRFVKLU0zUHkzUVhnZjFDMWVfbEZ6V3lKbGZFVDNyV2lVWGFNM2ZnWWRmcmc0R2dMdw?oc=5",
+       "source": "Reuters",
+       "published": "2026-11-27T14:07:44+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "EU weighs tighter export controls to prevent battery waste going to China",
+       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcnpuc0FCRzZjNXFLRFJWSk02YlZ2SkVlV1ZsWTd0ck9Vdnh5bjFuMGc3UHBSdWlFSFpqbkU5dWNjUFV3dWFoTFJLdWZ5RVBWUzUwNWxxQnlIQV95aVhMQnFZSzk5dWpXV1NjTWVSem04ZmsyakVFczBxcUhUdTByTEpDblI?oc=5",
+       "source": "Financial Times",
+       "published": "2026-11-27T13:26:26+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Nuovi dazi Usa per il Prosecco ma Trump «salva» lo Champagne, l'ira dei produttori veneti: «Scelte scellerate»",
+       "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOa3JDQ0VFcE42bHVEU2RoVDhqVGdaVWZiZV91NmItU1o3UzFEa3RRSzg3Q3kwWmREQnREMkowT29vbDZwS1pVb3VzalZZeUZlbFlxMWh1MTY4WmtIWUxqdTRDMVNlTms3eFozQWZWTUF6UmZRY2RveF9tZFlLcjltcWtLUS0wZkxXeDk3Q1NvaXlyMXNuc3hhc1lVUWxobXhqZHJzaDhCQlpwVFBHcXlIWGlJMkV6eXBKREpkVjU0WUdwc0tyaXZoUFZIUDFLdXdQUTg5eWlMNmI2ZUNXNXl3QVlrQXRzZjVyZjdaTG9ZLWtOcDVyZl9JSUZfeUVYeHFhOTJLM3lvS3dJUHJNWWk2Uk9zbHhSLUVjQXdjUjdMeUhuQWpGWnlmZ2FrOGd0aXNKd3lJMVhySS1FQlZRSWlKeC1wYVAyZl9pWnh3ZVVR0gHOAkFVX3lxTE5rckNDRUVwTjZsdURTZGhUOGpUZ1pVZmJlX3U2Yi1TWjdTMURrdFFLODdDeTBaZERCdEQySjBPb29sNnBLWlVvdXNqVll5RmVsWXExaHUxNjhaa0hZTGp1NEMxU2VOazd4WjNBZlZNQXpSZlFjZG94X21kWUtyOW1xa0tRLTBmTFd4OTdDU29peXIxc25zeGFzWVVRbGhteGpkcnNoOEJCWnBUUEdxeUhYaUkyRXp5cEpESmRWNTRZR3BzS3JpdmhQVkhQMUt1d1BRODl5aUw2YjZlQ1c1eXdBWWtBdHNmNXJmN1pMb1kta05wNXJmX0lJRl95RVh4cWE5MkszeW9Ld0lQck1ZaTZST3NseFItRWNBd2NSN0x5SG5BakZaeWZnYWs4Z3Rpc0p3eUkxWHJJLUVCVlFJaUp4LXBhUDJmX2laeHdlVVE?oc=5",
+       "source": "Corriere del Veneto",
+       "published": "2026-11-27T13:24:35+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Shoppers helped pay Trump's tariffs. Now Target, Best Buy, and Kohl's are booking $387 million in refunds",
+       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMkFaVUNOZUJVOTNOMG5SUlZub2JGWVVhX3ZORnRZT2dYZzgxSUxjMXN0eDA3OHhHWG5lVWxpeWJESUt3czd3RzloMmVfOGtJMzA3bnZ4SUp5OTBCSnJXZnU0NklQcnRUQ1dGaTJIUFdkcEpWMEt6c3FRZVo0ODdOMHBHcw?oc=5",
+       "source": "Fortune",
+       "published": "2026-11-27T08:31:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Nvidia’s 31% surge, US tariffs on China: 5 figures on investors’ radar this week",
+       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeFBERHNnZEkxaWk5SXAtZzlyRzhTV2RkcDJRTVBzWElKRmNudFVYb2FYUHdMaUd5SGh0REJNYXE2NXFNYjI5OGl0TUZxSWt1cVhtUno3QkZVUnl2QVJPdWp2RkdvdnNOYlhfLUNnaGZaNWlxRjVaWk9TeVJmNENhdEdtRXltLTJMbkJCUUhzUTlreE5ralRIZnBOVDUzWWJGRmlTd0NtNmY3clcydVlpMHBXUExzYmJVWHNOaHRDdWYxSE1KX1d3SGR1R3Vsc2RORlM2cg?oc=5",
+       "source": "South China Morning Post",
+       "published": "2026-11-27T07:00:13+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Vietnam Expects to Sign US Trade Deal to Limit Tariff Hit",
+       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOODBBeERJQ1o3RjY0MWtmamg0aVhxZXhjR2U1YURHYTR6OFFPZVRYU1pBMy1JM25kUFVfWlNtWnpJUHR1X1hReWR1QnU1SGh0RTlQYWxMUm9aVUpxa0sxajRQZEJ0RlRaTS1FUGNOaUN3M0xQQWJGRmpaY2NzWXdreWxFeHdSalJ2dTFPRTRVTzYzRmVKOTRwNXV6V3NKaXB4cjB3ZlM4dUNxUXk0?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T06:44:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "US Fiscal Policy & Politics",
+     "tag": "US",
+     "articles": [
+      {
+       "title": "Opinion | Democrats have a chance to support small businesses",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaHJpWmNOS1JaR2ZNX0RVdVM0VU1GS1NiOXJRQTNZM2NjZnV6VEt0TGdsT0dBUndmYUEtT1lYX0RSLTE2akdITWNvVVg5eTd5RXozSF96dWY4cnV5Q2ZRV2VBc3c3UTh4N3BpTmR5WlM4YW5tQVZ4SVBvTzF3Um1nSlNROUZ2aFpJRldjUjZGSlR2bWM2R01FVGVkVWk5TUk?oc=5",
+       "source": "The Washington Post",
+       "published": "2026-11-27T22:41:12+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Economia e Ia, il ruolo dell’Ue nei processi globali",
+       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbTktZHNMNlB4TThZYkEteXZPWHZJUzQ5Tks0MlF0OHZWSWR3M3o3bHQ2RUUzb2l2cnduRzZ3NjR0SDA4VVB4U3hLdTVxMmgtOEphUnJWU0xqWVN0bmN4aXNVRl9RSzlPV18yV2k0SkJqcnZ6MTY1dHNheGZtVDRId1FvN0U2RVRpZGFMWXU2dEUxSEk3MmxOWFVjVXY4YXZPSTNZanN6eEPSAacBQVVfeXFMT3hhdV9YQmlZUEVjUG9jMUtIb1Q1c3NjbDN3anpWOUpYekVzU21pbkc5eGNNaTEzTnpJeHRnTmM4RzhpNzZ3RVZWQWc3bXpoRWNJVzBCTUk5dVR6RFJuNERKVVdQYTBpLXNwcmNXR3dVeHUzV3AzbUJJNmVzbHBFQnhQQ3M3TS1RckZ4WnIxeExOcFBZQ2EzX2dHSFlILVFsTnYyR2VZUm8?oc=5",
+       "source": "Il Mattino",
+       "published": "2026-11-27T22:25:02+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Il gas made in Usa invade l'Italia: quanto costa il Gnl di Trump nelle nostre bollette",
+       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNazdmTFdYMmpWN0dNSzFIbFRMM01uaVRORmdGdDdPamxqWnN2VWpERHp5ekxrNEYwck5GSllEYkpLM1pwSG1sV0YtX0FZVW93V1F5Qk5DV282NzJMS05pc2M2MGFGdVNPVExBLU1GNk9USTM4LXVaRmVER0RWVW14RERMRjlYWXhMZ3QxSTZVRHFqaXMz0gGUAUFVX3lxTE85Q2dxV2xxUHlkQUowMWpnZnFLMXY2YVVyX3lWcUtxWkJQM1ZlUG1iTzN6aGI4YV9PRWU0Y3kwQzJLYmtrQXJCcThkRUxtZVl5c1h0ZDJ6eGtSREpHcTU2WHp1RlFIT0FLMWlIOGJyeXZ0MlVFdDI0MFJGM0k1NjVlX2k4YWZ0c0dnSTdjcDhiOVR3bVY?oc=5",
+       "source": "Today",
+       "published": "2026-11-27T20:29:18+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Opinion | Democrats, don’t bring the blue-state ‘affordability’ model to D.C.",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM1NrWUxhUTRQX2JxdVVQdWlxdHo4U0VGd0tSYW1WLXVCOGx0REZnNXdkMWdtSHNtMFFMdmhUalV2NEpkTUdlQzB5bW9aYVh4aTBOb2xaekZ4QURKZ1BmVXB5T1Z3YXdZX1c0RDh3MFFJdGxGSVpnaXlFUndCSk9xNmxtSTNCU0tNNzliaXJIMjN5SFViYWJMX0pEZ2xZTUxTSldHTUtMbw?oc=5",
+       "source": "The Washington Post",
+       "published": "2026-11-27T19:45:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Democrats vow to restrain Trump’s foreign policy, but foresee limits",
+       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS2pPOGI3eGpsamlSRzVfcUtiZWh2LUJqSWp1WVdyNmVfRzYwMWhKcXFaeUlQSEppUGNmOEMyOWJJRHQ3ZDY5Q0x4WnBnUHY2UWVCN0JwNHA5TVZPLXhSckhVQVh6cXhLcXJiSlZnQVc0VXRsWUVhTEw2dW5qdmd4Q3kyUHY1dlRCQjFZNHpySEtJZXJKRFZibEhxbnF5RmZJbTBCeW1KbXZqblhfTmQzN01fZ0NmdVZHMC1OWg?oc=5",
+       "source": "The Washington Post",
+       "published": "2026-11-27T19:00:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Opinion | AI breaks another Washington monopoly",
+       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ2syb21qOXdQbWRfR3huNUE0MzZCeEJKbzdfczIzSEVkX19VZHdRMTg4SWl6eDc3ODdYRElZRFRack1RRExWcEc0LV9IUldrcGc0X2hWaVZTaFhaX2l3VXRTZ21CeV94eVdBNGtqZTVjQi1WeS1iU3loZGY3Z19TX25qSFlXTmZtNWlmeg?oc=5",
+       "source": "The Washington Post",
+       "published": "2026-11-27T18:45:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Due azioni SpaceX in regalo a ogni bambino americano, Musk: «Non vendetele, potranno valere un milione di volte tanto»",
+       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNajVjZWVEUllSZGVmWVZTeHF2ZUNram1pY2E4VzRpLXNQckdtSE9yaHJpU1A4QTEzSEUydy1pQzFXNHFWdXJCeHdzeG1NdHFzY3UxRVF5WGgxMldyWG1wVENaRkdOMzR2cnZKOUtQUGZFaXNmS3BYZUY2OWxpY0lhR1Jsa2ZlUjdPb0pUV2RmWnJaTzhEWG92M1plMW01b1JVcjZWWk5OM25zWTFiY3FKT050U3cwZzJyRExKdlozSEMwT004SHJhclhXdlNpOXVfeUctUVI2WnQ3RmRyYk1wQncwNkdZMXZkOGd1UDJPeUV2UXdlNWdBbXhIRzZmOXA5a3RKVHJ6NnVfTWJUVl84VdIBlgJBVV95cUxPelllb00xOTl1VWFTLXZubUNQQTRMdC1fZDVScjhiQ0xSUktLaExRX1QwRU0yM2ZiYldXTFFEQ3lVQm43YjlSQnAyMlA5TV95ZF9yV2pGbnAwVUViYW9UNHFZSEltZDdyVU5KWl8yVnVDVVZSS3I4cF9pdWo1dnk2Rk9PTXctRzM3WmRKYWhUWmZob2g5V1QzRXNZazZpRmM5b09kVGZ0Znc2Z3J0a1RVWnVGR3l6c0ptdHZZdjRpLTViTEdBTlh0SVluTDRpeHlIRERhUmsxbDRKU3g1U1BLZG5SelBoLUdualJGSHN3emhicWRHblgtcE40US1iczFvb2J5WWZRQnRvWmYwYTA0czl0WnZ5UQ?oc=5",
+       "source": "Corriere della Sera",
+       "published": "2026-11-27T14:32:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Usa, è già corsa alla Casa Bianca: da Trump jr a Ocasio-Cortez",
+       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMmRiQmRqSWJZRkllbjlHYkdIRHM0dEt6NWhSQjE1VjBGUjlIZ2hFaXFZeXZUam9xcTZFMEpETFZSTHp1YWtWWldBZmZXVUw4QjVFT2tzVzBkdTVDWWRYbW4wZ3l3LVhtWEMwWFlnMEhPUmhPUmdHZ2VXdExhMzd4NDcwRVVaSWJQcVVfa3Y5Uk9Nbk1uR1gtSkZLLW5qSVZIYnpYRVJwUFFpZ2xCSk1LeTVpZDjSAaYBQVVfeXFMTXJYU3JYeHk1ZktZQjlRenhtaWZ3ZXpqc0l2cVNqX216MHd3YXdWejJobFpoQ0M5cWt3Q1R0RzJ4WEs4QXRzMmxHSm1IQ1RDSE52X3Z2TWdMWjBUOFNSYWx5MUtrUU42QjZHLUUtcWNMRHdudFhhUXVFZXBBb0tVZ1Bnd2h1UVRXbmRmRFBaUlFIZGRWaks1TEM0R3Fpb2JrdmZrYmh6QQ?oc=5",
+       "source": "Ottopagine",
+       "published": "2026-11-27T10:16:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Dazi Usa, il caso del vino: champagne e whisky esentati, la protesta dei produttori italiani",
+       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa1NsVjRaYjBtTWFFaDZHMnpSRjR0aG1XLVhNMDdlY1lHV3BOd2t5ZzFiQWNuY2V5RWFTcXZDdUM5MWU0VXhnVUw3bmZDd3RrVVFTRldKclltWmhfTFd1WVJyRG0yVmgxZWRxSm9LZGRIeE9wNTRFN3VjeGpoNC12VncxRG81TEROWExROGVDRDNlcVlCcDE5QTZDUHp1TUdSeVBOVDdEQTBoSllzQ0NrT2UxSnZhTXBZTEUtRUhERTFLUdIBwgFBVV95cUxNa1NsVjRaYjBtTWFFaDZHMnpSRjR0aG1XLVhNMDdlY1lHV3BOd2t5ZzFiQWNuY2V5RWFTcXZDdUM5MWU0VXhnVUw3bmZDd3RrVVFTRldKclltWmhfTFd1WVJyRG0yVmgxZWRxSm9LZGRIeE9wNTRFN3VjeGpoNC12VncxRG81TEROWExROGVDRDNlcVlCcDE5QTZDUHp1TUdSeVBOVDdEQTBoSllzQ0NrT2UxSnZhTXBZTEUtRUhERTFLUQ?oc=5",
+       "source": "la Repubblica",
+       "published": "2026-11-26T21:31:56+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "What are tariffs, how do they work and why is Trump using them?",
+       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBweHdveUp5S2F0aGJwSEs2U2lOMkF6NzRNZTd3bEJUdTQwVjhRX0pjZmFzZ25hRzk4MHE0WW9KVkEtUjIxRUNWbXRzX3pmd1A5UWhyaE5Ja1ZWdw?oc=5",
+       "source": "BBC",
+       "published": "2026-11-26T18:54:51+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "EU Policy & Regulation",
+     "tag": "EU",
+     "articles": [
+      {
+       "title": "Competitività e coesione territoriale solo così l’economia si può rafforzare",
+       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUjJ6Sm05VzlzRE40RTBpbHk4X0JLWmZUXzJKa2xabE5NblFwNHBQNEdlUWRuZHozM0I3RUJ6Z3BuUmRpN3RMdWUxQnFBbm83emxOYTNPaThtR1QxaUVNeUFIZmRuVDZwTGFZZmFBSWpLUmUzVkRMeU1xUkNJcnU3WGFkLTQ3R3BtOUVVWjdwUnVmSHVSeTAzeHhHcnNCYmFRd3cya3pNSnR6N3hObFprV2M3QjhlblVHaXVrSGlYbTZHSGVSWmVQVFdoTVp3NjdjMjBxSTA4em43WC1CZDU40gHkAUFVX3lxTE1jZU5BNXVkVFl5eWhXZzY1MGd1RlJhMXlObm1jQm5XR1ZHZHlVYzN1ZkxseUhXUzYxZlRBTjVhMnZrT2tOaFQybm5qb0dkVjdVeGNwT3c0eUxaQWFFWldiXzJqMUZoNzJyR3RBRWFqSXYyRFhjU0liUDJzOExhcDNWM0x6NnNudjJLWTFjRW84endrSlZTdWN4U05ZX2M2cUZTOGxybmM1bDZ3WGhRM0lheVdSdVczTEMtUzFrNEtzVVFiN1Jyek05RXV5Q0RfUF9wTmtNRG0zdlE1S3N5aDU2VE5YSA?oc=5",
+       "source": "Corriere Adriatico",
+       "published": "2026-11-28T01:50:02+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Special EU summit lays bare divisions over long-term budget, Ukraine funding",
+       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZjhIN09BQXdCYUVTcHVMV2xLVE10NmJGOHVBMlNlTS1HRFNXQkZGbjVpN0lScV9FV0txV002S2tvN0xTNkFpanE1d0Z3THZUT05FQ0tNdlpWeW5jMm5zdVFTWnBuNlIyMUpMTlFEbEsxWW1VUXdKM2I2N3NSMGxZdWxLcUpfZw?oc=5",
+       "source": "Xinhua",
+       "published": "2026-11-27T18:33:15+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Red lines and no concessions: EU budget summit ends in walkout",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVk95RVFVenNwUDBMV0wyMXlTMzFuR1diWE5GMnB0bkk1VFRJbnJ1U2NTQ0swTlluYnlLelFpZ0RqODEwWTN4RktVY0pYX2ZSZ3ZpMVhkM2FFWEtNSUJDbHdIQ0Y0QVdwbEZIUlhyT21FZUltUTVndUtqWk9kOXYyX0VqLU9wMGd6aFJTX1FpYU9xLTdjdG1QSmtNX21XWEtLSmpiN2t5RHpmLUIzazNndA?oc=5",
+       "source": "The Parliament Magazine",
+       "published": "2026-11-27T15:31:13+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "European Commission representatives visit Port of Baku",
+       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT2FGSE1kV0hfTDlUMmlEek9yQ1hNY3RDbE1jN09vOG1iLWltU1FDZ21LZTFxNE45eWdaVkt6bndJR2ZodURYcy1sUTM5N3ZxQkFaWGhGODNFaEVOTmVjMmZJRW5FY3dTalFVU0hBQVUyb05UMUhpcVJvMV9VQy1RTlFCNG9mNHBsekhZaTdvMFFmZzhv?oc=5",
+       "source": "Azərtac",
+       "published": "2026-11-27T15:18:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Bilancio europeo, perché i Ventisette non trovano un accordo",
+       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYzFqLUFCRGJpN2VBeWVIYTNYeVA0bThiVWZrcXJmQi14X2wzZmttZU03eEF2elR4S1dicXFCTmUwS2M2aFlOWlhQa3NOUFZkeU9BUWNuemQzSS1RQUN2UlNOczN4MGJySlowSnpxRjVZRUNfQVkzYXhiZkJNVG9hc2p1Q1psbWkwc1JuNjU3dFBwQmF1TG1hUjM0OUZLVEtMdkJDZXNNcmVCZ0s4Ul9HMEFTalE?oc=5",
+       "source": "Il Foglio",
+       "published": "2026-11-27T12:56:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Macron a Le Pen: \"Strana arroganza pensare di essere stata già eletta\"",
+       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZXFfV0gxWEZ1TmpTd2lKVUpQZHhZVGZZTEFINzJMS1dkaDB1NEdXVXdHaWl5N1c1dG9kWHJLNnVBb0VzQWdfc1B5cFp3THkxS3dnMW02NXFyeWpMeUFqeEJ2U3YteGR4WUFQdU1reXBnOFQ0YjlkNldQY1VJaVVrMlEyNHZ2a2RtTUNkeWlhQ2c4Q0JPMUsyV2pTSUlYLTBNUWxYTnhXZXJKM3BFaGo5VWJwdDI?oc=5",
+       "source": "Euronews.com",
+       "published": "2026-11-27T12:35:21+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Clevertech, ok dalla Commissione europea all’acquisizione da parte di CVC",
+       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSnU1RjBUOHRMRnRDM0N4aURVblc4MHVjZ3g5Q09CbHNpYW4xWVpZT2d6SlhRMWNBMlpCQTFmLXB3S1BLSXBkZVdWQ2d1eVhieXNCU190QlgycEM4SVpobW91S1hoQzBReEFSNzlaQjE0eFpzTXJuNzNDclNOR1pqZTdzS25zeEVmWlV1ZEstdThjN1RjQzc1ekVqRHhJemU4azVubFJ1VXVYSG9pY180emFQMFE1b0twMUdMSU9aLV9uLXJIVFlHN2lGWQ?oc=5",
+       "source": "la Repubblica",
+       "published": "2026-11-27T12:33:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "La Commissione europea minaccia la Bulgaria con sanzioni senza precedenti.",
+       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FMlE5QVMwenA4dzA2MlZ0R0kwczZpaUZsa3UtbW1GRXNNY3Ria0huQTU1QkwzS3NxbXRCSzNIM3lWWkdWbE9wMUptZTJKOFFSZ0J1Z0VheVNEUzZ2X21yTmFPRU5iYjg2LUVyVkFaR01wSXJKSUlleW1TMA?oc=5",
+       "source": "Vietnam.vn",
+       "published": "2026-11-27T12:31:27+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "EU leaders fail to bridge budget splits as talks stall",
+       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45ZFJLaDZtRzFwb3dXSEVRRnR4OUNqLWJLX05FWl8wNkhnbFpzSmRDaTlSbVVXOWN5bHZzaHBVVy1Nck9fSGFBOTV1cmhfTEp2MUJaTGZQaVpSNXR5cWc?oc=5",
+       "source": "BBC",
+       "published": "2026-11-27T06:11:55+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Budget summit walkout leaves EU one month to salvage deal",
+       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM3RGRWNHUjAzT05YdUc0eUdxVmVHemdqVUZVcUtsYUFROWYzNHA4NWFseFdBdDFNenMwenJmMFRULXpmWkU5MlF6TF85Sy0zVmRBeHFlSXFnYnNLSmFDVGtlaTk0R3IwQUVFNU0zUDJ1SFRLNmFQR3B2VnNhMlRXUmZ3ZnlJcEZpbjI0aDJJZUVLZmJ6VXVuRUE2Zl9WdEF1dGxIRWkzYjlXSFE?oc=5",
+       "source": "POLITICO.eu",
+       "published": "2026-11-27T02:50:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "Italy Economy & Policy",
+     "tag": "IT",
+     "articles": [
+      {
+       "title": "Italy Condemns Ukraine Strike on Russian Ships Off Libya",
+       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CLVJ0WktIRWVrSDJLUnZIbWNRdE45UjNfVlR6QS1MMW9lQVBLUDNudjhrSUxwNVFlaFdDSkRUOEttLWdPXzhsdklTd1ZnSVFEdGcyZ25rc0gyRVBsY25jVFJkM3VRaDQ5Ums2ZEQ0dw?oc=5",
+       "source": "Limapagi",
+       "published": "2026-11-28T00:24:50+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Fake Government App Exposes Italy’s Expanding Spyware Surveillance Industry",
+       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd1Q5LU5uMmFIR0hTdUJZOFlPQ01XTjE1THFCZkpncVIwejkwa1IwYkYyTlNhZUQtOV9EeWNlUnNiY3gyWk1vZ19ObDZHRU9DUUxSZGhROEotM3dMOUlxTl91SlVpN3pfV3FpUG1rYmc4MzdWczF3a2RvOEtOb2pCMjdjQkpZREhZVjU3b0gySTEtY0hIeENtb1llQW5FdDFpa1hCdFVWMjhXcTl4bERIX3FoQ3FTTXczRWwzRHJyRzBoUndoSnfSAcsBQVVfeXFMTXVXS2FsX0NIRTd3VTBCSE14dG14cmM2aTVOSEUwVGRpV1lVekh0bjBnVGg5Rnp2ZnFOTGVabjhLZjgxaHNxNTlrb2tuUzFkeElzOS1ucHhmM19OVjBIVzN3RFJvb01rSVpUODdsckRRMThWaVAyZlVUUmtDSGNPNDkxb240aHM3UDNRRU5Yc2FPQ2NxOGx3X0RRT1k4al8xb05xaVUxMUU1YnlaaVdvZmFYeWJVOHlpUHpyZjcza0c5aTR2R1psakR0Tkk?oc=5",
+       "source": "Security Affairs",
+       "published": "2026-11-28T00:22:30+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Italy Rebukes Ukraine Over Strikes on Russian Ships Off Libya",
+       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vVFhaRHRCbjI4bWNmMWFhMW92M3c1TDJuT2wtNlh4OWRIeFVqb043LWdFd1M2blBKcXdqWXk0Uml3WFVlZ3dsREJ4ZHdlSzV0a054dUY1a0tmV2xiaTREcHZwelE2Z1U?oc=5",
+       "source": "Peradaban.id",
+       "published": "2026-11-27T21:52:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "How to Apply for Family Reunification in Italy 2026: A Sponsor's Budget and Task Plan",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZXIxTVNEZjRNS0ZEVUJld0IySnljbTU4VkUwYm9QRG9Ib2RhQzItLS05VHI5SEJJMUQ0VXVKUFFOS29oRmZXWE1hTE5Vay1sLVdPbC1ZeUpDblJVZjI3V1hQNnhpOEdEY2V5M1JvMXkwTUFobmp1NFlTN2t5NlV4bmQ4aU9EMEN2NlY0X3Vqd0d5UHRFeFAtTnRDU2lCMjVVS0J6eQ?oc=5",
+       "source": "Global Advisory Experts",
+       "published": "2026-11-27T17:24:06+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "EU's Moscovici says does not want crisis with Italy, expecting answers on budget",
+       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdzF4ajdWY2hSYlVuNlVSdE9xc3BqYkkydExFd0w1eHk4V2tXZGRQa3VaSllOTWJZVlVzOUZpXzlXTnQtRC1kZzFReVpHdGtQZzI3eGpNV202aE9MRFQ0VlFFUEFTc0lDWkR0UWNUc18yRXp1TUE4MW55ckdkNHl6UXp4amlaV1hCbmdkOHd1ZHNiQkhBcFhaTmN0ckRUUWNvalJxVUkzTFdGb2FyemlycHBVY0NkN0h5?oc=5",
+       "source": "Yeni Safak English",
+       "published": "2026-11-27T15:29:58+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Istat, il fatturato dell’industria cresce del 3% a settembre ma i volumi del trimestre vanno a rilento",
+       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTEktN1Jna1JZZjRNTkNxMk5CTDZ2WlZaakJlLUFhUG9QYmlIcEtVRjNZME90UlUxeF9GMFZ6TGlFb05ybEtnR3JuYTcxYWttSGViZ2oxV3NuRHlMMFhVX0VaSC0yVDB0Ui1pcHNpWjZnNlQtcFp0d214WGxGamxfbWI3bnNSQlBSTmVBVnpGdVZlTmF6d3JEWEgxMGFQd29ROVJrbTVMQWZ4dEQxYVBJcERfM2N1SUhBd19YaUtkTnFQTTdwcXVweXg3NHhBTlI0aTR4ZQ?oc=5",
+       "source": "Fortune Italia",
+       "published": "2026-11-27T15:23:29+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Industria: dati Istat contrastanti su fatturato (Unc)",
+       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb2NIbm9jS3VYa1BpM245SWRFZmptUXVPOElrWF90UnExTnZ6RmpManJ0X1hOWFlHZlltSzVXajBWdEtWV19XcloxVi11V0d5X3A4b0JPQm1HOGtNNDJfSXUwa25oZmVoZ1NkWkRrQjdidzZtMFVFSjBLRWtMTkNQTjR2Tm1wQ1NjWlRCSmdCSmZqNmVZRmNIek0zUUg0MnJCQU0xSHVjdWRyN2RfeEYw?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T11:31:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Industria: Istat, fatturato +3% a settembre, +5,6% su anno (RCO)",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBPbk55VzFJaE9WUy11WjNvTjRTbFVUZExoMnlQNHpmSlZVUWxzcnlZR2NLVFN6RW1CWXlRM3pMVzBUN193LTRjWEpaOXB6TlpyVlAyZVNfdzViblNVd3pKZGJXbnNYNi1FWEVmZmwxNnhBa2I5?oc=5",
+       "source": "Il Sole 24 ORE",
+       "published": "2026-11-27T09:43:42+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "*Industria: +3% m/m fatturato settembre, +5,6% a/a (Istat)",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcFJQOXYxR2Y3dVUzZHIyY3VlR2dubHJNVEFCWDNUTFhTS3M3V2NqaG9uMFBzejhlaUk1WXdITUxhV3E2SVotMjd2SjdXMXRRQUl0d2FrUzNIZGtCX2lhNW9CQ3lMOEROY0Nma3NZVHltNVozMllBSEd2cmJUbXFrbUhCV3VkSzBUalBCR1ktanU3c2ZuV3FfMHYtcngyaTVRZlB2OUxXcjQyQ09SNEE?oc=5",
+       "source": "Milano Finanza",
+       "published": "2026-11-27T09:06:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Violenza sulle donne, Istat: subisce una giovane su tre tra i 16 e i 24 anni",
+       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qMEJ6V0NRQlZuVUdlYjF2TnUzLWpEWC0tUFlqbzlsNGg3bFdWaDh1cXdkenpzd0pZSy1kZUE2T1U5Q1ZXMkRpZGJYcGx4N250dUxGblExS1JCQ1pXODFiVXNoaHpXM09qcGRid1EzT0pfSGFDdGpGNGVvYw?oc=5",
+       "source": "CorriereUniv",
+       "published": "2026-11-27T08:18:07+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "China",
+     "tag": "CN",
+     "articles": [
+      {
+       "title": "Can this Chinese region turn longer weekends into faster economic growth?",
+       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNHowckFyaGtBZ3lsZzJ3QUdjeEtCeFlQTE5icmxva1F3aGdldG90S051cUN1RW5JZmNyNHJWTWl6RDFNaUQyekE1eVZpRzRTRmREYUJGSC15R3BHT0k5VGFCaHhaZDNMZDAyTmkyMnJhV2h6U3ZqQmpiaU1GclBZamtJTVVPWUd4anl2cmdwWTFmYjI5aEhsS2VzSVQ4bEw4WUhmTHREUzJjdW11VlBZZU5lc2JXTXRwSTlMeFo5M0RRYlRzM3pXLTNuN1c3S1BaLXU4VnpnN2ljd9IB2gFBVV95cUxQejg3a1BmRGxDQVJPbDV5VlNoRjVheXQtUm1BWkFxNWJsb3Ewbjd0dFdFdVIyM3d1ckdISS1JREZrMjVJdUI3N3ZBeHlSYzJ2LVJfb1ZWbkZxd2JERnRJQ3lHQlB1ZC00WEVDU1VwM1dNU0V6aFNJTlNQeUVqMHpzRXBfTXZ6QnNrc29qZi1OZ3laSVlqMkJSbGVyRVlJR1I2YVNaUEc5T0FHZ1NWNkdNck5yYlpESDVJWWVsYnk0d1BXb0JPWjNvXzg3S1VTeDhDd0t0MFZrZFVCQQ?oc=5",
+       "source": "South China Morning Post",
+       "published": "2026-11-28T03:00:11+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "China's premium puffer jacket push meets consumer resistance",
+       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTlExbWltNnJEdUNzdzVrMGN1M29qbkc5d3l4MnVFd01fOXBiZFAwS2dVRHB1NmdHb3FLLWVwOV9BUEpwWndDc2lwdGt5T05HdDYwVC1pRllMMk93cGRyM3ZMSUxHM2owcUFRRjZmVzhVdWp3NEJmbFNoQndxNWhJQmdVYk03SkwtN29vT2dMekY5SjBVNlZibWFtVkkyUHBqdXBNd09WQnJiQnRBQTVLQWNRR1FNUUNvdUd4UQ?oc=5",
+       "source": "Reuters",
+       "published": "2026-11-28T01:05:00+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Industria cinese delle memorie: i conti di CXMT",
+       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MS3pnRXZkdEtzMmRzeklVLVlPWEllQ3RLWlFSNk94dXhrNHRYTmptd0Q1aFpBbGlaVlY2cDgtS1dKM09vX2ljWkh4RjRld3FmZkc0M3NBUXlBWnVCeHdhVDZBZ1p2R3hqZ1BadVdCbDZkZVhDVDh2RldSQ1I?oc=5",
+       "source": "NeoTeo",
+       "published": "2026-11-28T00:52:30+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Unitree stock jumps nearly 20% despite a new Goldman Sachs sell rating",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUWg3aXNScEVIOXZMMHVIcHlsd2dRNzlSOGYtb0ZmNU03RkNFd0hoenNwNWhqdUp4R0tlbzRJX2FRSkZnTlFlVmRLalVkOE0zTlBqdV9zelo2V0VLbjBkREZLekMtTGhYZ1Y2SWowNVl4TWZXV0ttR3FYaWp6emxJRXZWaEdRVExJWldsNms4SGJaTHA0OUR0ZkR1MnJOZw?oc=5",
+       "source": "Startup Fortune",
+       "published": "2026-11-27T20:55:21+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Redmi TV A55 2027 arriva in Cina: 4K a 165 Hz e prezzo di lancio di 1.599 yuan",
+       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRWZQMk1nVEN0ejFlZzgzeTRhTzhoR0VFZUprMHNDNFV1TTdZYWR6NDFVUUtYWUlPcXkwa3JFV1htUDgtbl9ORUZka0pPQzQtWkJWUzV6X3pKUU9qbHNhc2ZCbHRVR2hSVnRENTVGNkVKVUpFdkxMdzFSQ3lFTnh2US1sR3lNNFFiMjRIZXg5bElVUHFlS0R0RVR3bTR5Qm1xeEVERHRURkd3ZU9naUE?oc=5",
+       "source": "XiaomiToday.it",
+       "published": "2026-11-27T16:35:59+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Anxian Yuan China Holdings Limited comunica i risultati del primo semestre conclusosi il 30 settembre 2026",
+       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPOTNTNk9Ud3ZzcG1PZzVJdUV2WEFWa0RzZnBxV25JYklBNGpXdUk2aE5LYnFmcDFQdXpORW9tRTdwRVJYR1JVaGt0NDdRMEtVRUZacWZ0QVRhbDVOYXVOd21oODFvdlZPWFlyUEphWDBtQTFFbEYtbkc5WkJYZHBUS1E1QnI0cFNmbXl4UnAzRlgtNlhWTjZ2UWFiYTNaNWFraEUwaE1mMDc3c25WNjlVSkJ2RkdZLWxrUU13Ynd1dnd5a2xMenRyNGYxOVpZdTRqUVg2cUhIVFFkb1pvWXBBbUU4aGxyb3MyQVMw?oc=5",
+       "source": "MarketScreener Italia",
+       "published": "2026-11-27T14:07:16+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Yuan Heng Gas Holdings Limited comunica i risultati economici del semestre chiuso il 30 settembre 2026",
+       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbnpzTTFFaExDdWtWSU9ZY2c2NG9kdk1sR3ZmQm9MbUgwYTdacFhNeFhiTEVUQmNoWUxDNXo3bXd5VlVJeTI4NDJPZmpQcjRtUHVteXNCdVJTMnlqejkzQW9VTm9BaXFIVV9BMUJ6cDhOQ0NWZ3VHMi12eGF4NnRBNW9DSlFwMVdINzFXbjExeTQtUnkyclZXcmpMOHVVV1ZCbW1UT3ZiUjB6RU9md082T1lHVGRPc1JOTnhVM3BhUjhGSk9sY1JfZXU3NlN0ZWJGLWhhempieHdFakI2dkk1UU5qVl9LT3lwQktv?oc=5",
+       "source": "MarketScreener Italia",
+       "published": "2026-11-27T13:21:14+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "China’s Didi Posts 57% Jump in Revenue from Overseas Business",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHdzQVdwdVBDaVBSZElhaVN6a281RG5xTHlBV2x6d0ZwSUZMdGNkbmplRmxWeUFWT2xGY0JQcG1QU3VwdmdwZEQ3akhTaV9paUh2X2JLNUt6YmRMZ2tOc3NDX2xqMm1LY20yS3I1cDNQbTJnbWZIWEltNnBhaEpDejk1dzU3UXEwbXkzLTZiR2l6bnRpeVJkc0s2TUk0ejl5ODVNWkxSTmJZR1BlSkJvag?oc=5",
+       "source": "Bloomberg.com",
+       "published": "2026-11-27T09:55:15+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Meituan posts second straight quarterly profit as delivery subsidy war eases",
+       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPLWt5eFFfejNiS2l6UjNtVWlYRzVjaEFjdWZEc1RCRnlrYTl6alRlU2dYRUgwTjhYMFVqd1pwdXhwY2tPUmpyYTQ5bWY5UEU4UFRuNEMxZWI1V196WXlmTnpHQkdxUnQwemNzM2xNTU9nQ0dyeG5fUEFacHZkTTFOT1E3bVd3djA0UnRDa0R4WkE5UGQ4X1FEaTBJT20tamxUeFotYUcxZTFucE1DcW1HblU5V0tpZDNpWGJTbWc0aGgtU0FLbEUzSE5RUdIBywFBVV95cUxPZWs1anpyRjZSc3ZWNXVpMmpwTmZta1htMkYtMGN4LWtOYjR0cDFkLVVLSWI3U1FEd0xNLUdrcW5EcDdPRWt3OVRDZUpSR0wwOTVIS083RElOVkR5MmEwUF9WbjR6N21GV2R4ZFJuZlVNS3VJZjV4ZUc3c21fWnhuaWszTGRHMkJzcHNrN21udU9sSkFVLUROOWpjc3R0QmRWaFplQm52Z0RsQ2REZ2QwT2phS3RzYjBmUmR0dXAwU29ZX2g4c3JheHU4UQ?oc=5",
+       "source": "South China Morning Post",
+       "published": "2026-11-27T09:18:29+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Yuan vuole essere valuta globale: in un anno +7% sul dollaro",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWTBONmI0YTN3YXRtNzlGcF85RUczRXFuM2EwOGl5Q2luVW1FZnlkemQ2M0dlX2hsMzVoR3Rkb2hPT2Fybjl4SzE5aTVLWTlmWGliU1BCVGY1ZTFBUWFuS3NlZ1ROcm03NnlGTmFtQ2xUQW0xcmVoekJVZ1h6LVRrT1JrTUo2dTFJQWxSd0h0ZkppbHh3eV9GSVJ0NFlIZ2NjeUJkOQ?oc=5",
+       "source": "Il Sole 24 ORE",
+       "published": "2026-11-27T04:13:07+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    },
+    {
+     "name": "Conflicts, Sanctions & Energy",
+     "tag": "GEO",
+     "articles": [
+      {
+       "title": "Turkey Set To Extend Iran Gas Deal Until 2032, Despite US Sanctions Push? Reports",
+       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPYk9taTZfbUt0R3RqZlB5SmFYYmRFMk1aU3dnaEU2VHRFckZwalg1ZS1DUTBhV0kxUWMyTVNMbEFkSEJqSkNwYldGaEk3ZFZyU2tYQTN4UkxJOC0xMGwwUGctMkRvRF9lWmMzOUVIM3NHa0xOWlVGZWlUUzlzWjU2Q3RZZ3pnUGZpd3lmUTFZaU1qVnQzZjUtOGMxYmIxTFVSa3djQTUyX2VxTnkwcnpCeURrWmNhQWdITGx6NEJYdzRoQVJoakwxX0RsSktiNFdBTER4a2FQOWVUaXBSQmVKaGl6bXBZTHQ2aWRYdXlCLVgzd9IB9wFBVV95cUxNV3pUM2JTVm1SSTFxUGw2SGJidm5KUVI4MllDNWI2MFVsUnBxLXhCZ2xtZ1lVYmRjRGJqYm1NazNqXzdyYXRiazNkRTlnc3AtZXVKN1hJZkU4cGxHa083cmRmeW4xNE1VRm0ta1F2MnF1UkY4UkFlZGc1dW5Keno5X2NYNDVPZ25JN3BCV3FLRkp1cWRQdTdId1I3NjBsT1lIaG15RDJzVGlieTZBblItcXhsLVdyQ1NhSmNSYTgzSmEyNXFFZ3d0ekE3OU8xQ1ItR25WVXhVNUxQb1FnRWJLTHRJWHlobkR0V0ltSlpoQV8yRnU1cDdv?oc=5",
+       "source": "The Times of India",
+       "published": "2026-11-28T00:47:23+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Turkey extends Iran gas deal until 2032 despite US sanctions",
+       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAzanY1R0hZbWtqN28tRGhJQVVhUzZzdGd5Mmpha01WVkw1UC1wZll3NUNRa2tFc3N0VldTc2ZOLTdNWFdMcEJVRw?oc=5",
+       "source": "Roya News English",
+       "published": "2026-11-27T20:06:16+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Sensex, Nifty decline as geopolitical tensions and rising oil prices pressure markets",
+       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnEtOEpza2RBX1U2Z3VETVNvOG5wcW9yYXJscFY1Ql9YbjNRZDctR2thT08zclRnbzVVSmtvN29UMzdTSGY2MzBtSnFpRWhlU3lFZVRYNk13UEdRakRYR09wR28tYmJldHhDZjVOZDFwZTg4engxUVVWci1NWU5STGhNR0JtdndtX2dXU21tenhlcU9ZWUE4NGI2YWE2bFZBNFpaeXdWTnhNeHdZYlF3?oc=5",
+       "source": "DD News",
+       "published": "2026-11-27T19:29:08+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Taiwan, AI, and Geopolitical Stakes: Why Microchips Are the New Oil in 2026",
+       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORVJHTVhTUnlXX3NSM1FJNDBvZjI5dTl6cGNTZGYwUkhjMXZBQ0FsX0dBOWFyTWNmcXQtX0Q0S0NJbnN3cjhTdk9leVlOZG9KVElxa0hobVNhVnFvY0dSTmhaRG5DdXBjTXl5S29FTE5aN3Q1YmpHR3VzSnpaLWtOa09OY19NYVEwVmFkdDFLTVBlajVFM3J1U3ZvYzBaaHhEZlVDetIBqgFBVV95cUxOSzdYemdGa1FWLURtQkVJUzZaelJ2MTd0cUJRdmw0eG1KOHZoQ3d3SlV5SHZWdEZWZVBINWU2bElZSndzbVhtQVIwbXZrUFc5TlVydmw3VGJBYmg1ZlZfRjdQWXZtZC1kUS1UZno0X3d2ZmhaTFA3MkNVcE4xSjFHWXQxbElMMmtnTzdHMnRFbzVTOVY0LVNveXo3ODZGQUZaSmxPMy1ROGM4UQ?oc=5",
+       "source": "Inkorr",
+       "published": "2026-11-27T19:09:12+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "India may have passed worst phase of fuel price crisis, provided geopolitical situation does not worsen: Indian Oil Chairman",
+       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOUFdydHd1NzJGUy0wOHJKRkdDbHZ0NzNaUGUxWkc0OHAtdGRNNUhjTWxfRThxakc2TEk5Y0xsNlVuc0VBck4zZ1BMbjR6bGszdWl0NVNta1FjVWJEUFRXd1RKWG9mN1o5dE5zQm5abjFNU3hBQXliWm1KY04tZ3BfaE1BQVI0WGx0RFh6TkdoVUNRcnJxZnFVc1JsWVJ4amw1Nmh3TG56dVp0dzVMWXlfTkRkMzZxTFd2Sm92SnNuMWF4VHVNOWZDQ01jTTI5ZHR2NUdtb0JCdVowU3BSR0hiVjZLZFBuWkdfUVJROWFrb3pDMDlUVV9aSHNNZGZ5Z9IB_gFBVV95cUxOUFdydHd1NzJGUy0wOHJKRkdDbHZ0NzNaUGUxWkc0OHAtdGRNNUhjTWxfRThxakc2TEk5Y0xsNlVuc0VBck4zZ1BMbjR6bGszdWl0NVNta1FjVWJEUFRXd1RKWG9mN1o5dE5zQm5abjFNU3hBQXliWm1KY04tZ3BfaE1BQVI0WGx0RFh6TkdoVUNRcnJxZnFVc1JsWVJ4amw1Nmh3TG56dVp0dzVMWXlfTkRkMzZxTFd2Sm92SnNuMWF4VHVNOWZDQ01jTTI5ZHR2NUdtb0JCdVowU3BSR0hiVjZLZFBuWkdfUVJROWFrb3pDMDlUVV9aSHNNZGZ5Zw?oc=5",
+       "source": "The Tribune",
+       "published": "2026-11-27T15:12:43+00:00",
+       "lang": "en",
+       "summary": "",
+       "preferred": false
+      },
+      {
+       "title": "Gas iraniano alla Turchia fino al 2032: il rinnovo di Ankara che sfida le pressioni americane",
+       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TNVBZMWtnQ1YyNzFqemd6RUpmczJGdUZmT1BIN3NRdHBydnVETURGc3BiQTBOWXA4dWItaTJOMjMwMmxSdXZjakg4dGJVQ0xfbDA0ZTU4T1o0b2VkR01Oa0JwR1RlaUxLSkpEcUV0bWJ3MDJRWUE?oc=5",
+       "source": "Il Politico Web",
+       "published": "2026-11-27T15:00:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Mercati dopo le Midterm: i nuovi scenari del 2027 tra tech, tassi e geopolitica",
+       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcGJEUnJGVk4yOWdtLWxMbVVNWHVoSXVpSVVCeXQzY0R6MUJfVFNtajZUbHRfa0NvQkNiaGhCcGdlRDhLRGktUkFtTEhIWjk5VU5wMlhCMkFzZTRJZFVGbEs0LW5TYnBBUzAyOW12emMwdU9oZFNaUFVIWFRkVXA0OVNpMGk0MVVDNFlLZ3NwTHRiaTg5Zm9xazNqb0tvejA5eXNCY2xZQUdPU1JmZkF0Rg?oc=5",
+       "source": "Wall Street Italia",
+       "published": "2026-11-27T13:26:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "AfD spaccata sulla Russia: Weidel stoppa Frohnmaier, «Niente diplomazia ombra con Mosca»",
+       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWDNVMmJLMGJycldHN0pZbWMzWEpxUUt3eVNEV0ItaW5lV0FkMUZfZjdJNlBsWmZlemtCYU9iR0JDQ2dLS19mQkl2MlFvT1FRTzNfSWxxQjlOYlluMlZFa3BmX0NINUJXdjIyVHBfa2h6YVFCYzY3bW5SMXpzc044X0IyWEhLVlk?oc=5",
+       "source": "Il Politico Web",
+       "published": "2026-11-27T10:10:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Meloni: «La guerra non si allarghi al Mediterraneo». E lo dirà chiaro a Zelensky",
+       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb1l2eGhsa19sQ1JmTzBVcWlfcEFaNng5Y1RxV0tubkpnR21yYUMwRUZKZzU5ZS1Oa0J0Vi1kUEg5WFNtY1pZOW9fdGoyX2N6M0dYUjdQazR6OUJTWHVnTWJ6Rm13TjhRcTdIZVN1SUVYcVQ2UGMxZy05VGtvbWNaR1M5TUtxR2hy?oc=5",
+       "source": "Il Politico Web",
+       "published": "2026-11-26T18:00:00+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      },
+      {
+       "title": "Chip, AI e sicurezza nazionale. Aresu spiega il difficile equilibrio del mercato globale",
+       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcGkyYXZpcm92ek8wQnlMNjdFOWlwR3RMemh1WldURU1qRTBTNnphbnhvRGN1ZF9xaUFEVHJWak92bGZ3WHFmM3VYWVZubXNXTUZ6RC1IRW53b250Q0dYTHlPenU1Z0hrS3ltTmN4aWpLZTc1Vi1OWWdWVmlWTUI4UDkwWXZSM1hQ?oc=5",
+       "source": "Formiche.net",
+       "published": "2026-11-26T16:25:46+00:00",
+       "lang": "it",
+       "summary": "",
+       "preferred": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
